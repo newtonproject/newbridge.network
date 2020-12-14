@@ -24,7 +24,7 @@ Visit [NewBridge.network ! replace URL](#to-be-replaced).
 
 NewBridge Network Website is using [Hugo](https://gohugo.io) to generate static website.
 
-All configs and settings files for Hugo are placed in `[.configs](./.configs)` directory. If you are familiar with Hugo, go into the directory and use it as any other Hugo project.
+All configs and settings files for Hugo are placed in `[.configs](.configs)` directory. If you are familiar with Hugo, go into the directory and use it as any other Hugo project.
 
 And for most people having `NPM` and `Yarn`, we added the hugo-bin and hugo-bin-extended to the Dev Dependencies. Use the following steps to run without install Hugo independently.
 
@@ -114,15 +114,15 @@ I (@arisac) will update the website program and scripts onces it's ready for tes
 
 - Guides
 
-  - Contents Contribution `tbd`
+  - ✅ Contents Contribution
 
-  - Program Contribution `tbd`
+  - ✅ Program Contribution
 
 ### S3. Launch main website
 
-- Setup automation
+- ✅ Setup automation
 
-- Setup the rest
+- Setup the rest `tbd` see checklist below
 
 - Update theme and home
 
@@ -132,7 +132,7 @@ I (@arisac) will update the website program and scripts onces it's ready for tes
 
 - PR
 
-  - CLA Signature Check `tbd`
+  - ✅ CLA Signature Check
 
   - Contents Check
 
@@ -151,6 +151,14 @@ I (@arisac) will update the website program and scripts onces it's ready for tes
 - Deploy
 
   - ✅ Deploy
+
+**Checklist before offical launch**
+
+- [ ] Update `Hugo Config Link`
+
+- [ ] Update `CLA Link`
+
+- [ ] Update `CNAME` and `DNS`
 
 ### S4: Future
 
