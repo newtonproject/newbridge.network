@@ -98,12 +98,12 @@ params:
   # Git repository location
   # Set source repository location.
   # Used for 'Last Modified' and 'Edit this page' links.
-  NewDocsRepo: https://github.com/arisac/newbridge.network
+  NewDocsRepo: https://github.com/newtonproject/newbridge.network
 
   # Enable "Edit this page" links for 'doc' page type.
   # Disabled by default. Uncomment to enable. Requires 'NewDocsRepo' param.
   # Edit path must point to root directory of repo.
-  NewDocsEditPath: edit/wip-hugo/
+  NewDocsEditPath: edit/main/
 
   # Configure the date format used on the pages
   # - In git information
