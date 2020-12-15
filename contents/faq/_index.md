@@ -39,7 +39,3 @@ your asset from NewChain to Ethereum.
 
 Change the transfer target, you can get a qrCode, which content is an ethereum address, if you send your ethereum asset to the address,
 you will transfer your asset from Ethereum to NewChain.
-
-## How does NewBridge work?
-
-TBD.
