@@ -121,22 +121,24 @@
     display: block;
     border-spacing: 0;
     border-collapse: collapse;
-    margin-top: $padding-16;
-    margin-bottom: $padding-16;
+    margin-top: $as-lg;
+    margin-bottom: $as-lg;
     
-    // border-radius: $as-xs;
 
     thead {
       
       overflow: hidden;
       tr {
         background: var(--fbg-200);
+        font-weight: 600;
       }
     }
 
     tr th,
     tr td {
-      padding: $padding-8 $padding-16;
+      padding: $as-sm;
+      border: 1px solid var(--fbg-300);
+      
     }
 
     tr {
