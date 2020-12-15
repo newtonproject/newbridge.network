@@ -1,5 +1,6 @@
 .markdown {
   line-height: 1.6;
+  padding-bottom: $as-lg;
 
   // remove padding at the beginning of page
   > :first-child {
@@ -66,7 +67,6 @@
     padding: 0.1rem 0.5rem;
     background: var(--fbg-500);
     border-radius: 0.25rem;
-    font-size: 0.875em;
   }
 
   & > .body > pre {
@@ -80,8 +80,11 @@
     padding: $padding-16;
     border-radius: $border-radius;
     overflow-x: auto;
+    font-size: 0.875em;
+    margin: 0;
     @media (prefers-color-scheme: light) {
       background: #{$color-deep} !important;
+      color: white;
     }
     @media (prefers-color-scheme: dark) {
       background: var(--pre-bg) !important;
