@@ -8,8 +8,8 @@
 {{ end }}
 
 <li class="nav-item dropdown">
-  <a href="#">
-    🌐 {{ i18n "LanguageShortName" }}
+  <a href="#" style="font-size: large;">
+    <i class="fas fa-language"></i>
   </a>
   <ul class="dropdown-menu">
     {{ range .Site.Languages }}{{ with index $translations .Lang }}

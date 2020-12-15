@@ -1,6 +1,3 @@
-- id: LanguageShortName
-  translation: EN
-  
 - id: Search
   translation: Search
 
@@ -27,6 +24,18 @@
 
 - id: footer-cpr
   translation: © 2020 Newton Project & Other Contributors
+
+- id: footer-newton-project
+  translation: Newton Project
+
+- id: footer-newton-web
+  translation: Newton Project Website
+
+- id: footer-dev-web
+  translation: Developer Website
+
+- id: footer-contact-team
+  translation: Contact Team
 
 - id: newdocsSearchConfig
   translation: '{ cache: true }'
