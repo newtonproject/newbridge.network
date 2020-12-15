@@ -274,3 +274,8 @@ svg.icon {
 .box-shadow {
   box-shadow: 0px $as-xxs $as-sm 0px rgba(21, 53, 80, 0.1);
 }
+
+.transition-color {
+  transition: color 0.2s linear;
+  transition: background-color 0.2s linear;
+}
