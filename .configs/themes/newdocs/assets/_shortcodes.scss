@@ -76,4 +76,26 @@
       }
     }
   }
+
+  // {{< section-list >}}
+  dl.list-block {
+    dt a {
+      display: block;
+      border: $padding-1 solid var(--gray-200);
+      border-radius: $border-radius;
+      padding: $as-sm;
+      &:hover {
+        color: var(--color-link);
+        @extend .box-shadow;
+        background: var(--fbg-200);
+      }
+      h4, & p {
+        margin: $as-xs 0;
+      }
+      p {
+        color: var(--body-content) !important;
+        font-weight: normal;
+      }
+    }
+  }
 }
