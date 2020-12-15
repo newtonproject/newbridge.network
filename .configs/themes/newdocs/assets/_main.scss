@@ -217,6 +217,7 @@ main {
       @media (max-width: $mobile-breakpoint) {
         position: relative;
         padding-left: $as-sm;
+        margin: $as-xxs $as-xs;
       }
       a {
         display: block;
@@ -438,7 +439,7 @@ footer#site-footer {
       font-size: x-large;
       margin: $as-sm 0;
       a {
-        color: var(--body-content);
+        color: white;
         margin: 0 $as-xxs;
       }
     }
@@ -454,7 +455,7 @@ footer#site-footer {
       li {
         padding: $as-xs 0;
         a {
-          color: var(--body-content);
+          color: white;
         }
       }
     }
