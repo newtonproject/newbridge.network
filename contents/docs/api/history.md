@@ -1,10 +1,11 @@
 ---
-title: Account History API
+title: (Core) Account History API
 description: "Returns a JSON structure with details of the NewBridge transfer history of the specified accounts."
 author: "Vie Yang"
+weight: 13
 ---
 
-# Account History API
+# (Core) Account History API
 
 ## `GET` Account History
 
@@ -16,10 +17,10 @@ Returns a JSON structure with details of the NewBridge transfer history of the s
 
 ### Required
 
-| **Name**         | **In** | **Type** | **Description**                                                                                                                                                                  | **Enum** | **Default** |
-| ---------------- | ------ | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ----------- |
-| newchain_address | query  | string   | At least one parameter should be provided in `newchain_address` and `ethereum_address`. NewChain address can be starting with `NEW` or using raw hex address starting with `0x`. |          |             |
-| ethereum_address | query  | string   | At least one parameter should be provided in `newchain_address` and `ethereum_address`. Ethereum address should be starting with `0x`.                                           |          |             |
+| Name             | In    | Type   | Description                                                                                                                                                                      | Enum | Default |
+| ---------------- | ----- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- | ------- |
+| newchain_address | query | string | At least one parameter should be provided in `newchain_address` and `ethereum_address`. NewChain address can be starting with `NEW` or using raw hex address starting with `0x`. |      |         |
+| ethereum_address | query | string | At least one parameter should be provided in `newchain_address` and `ethereum_address`. Ethereum address should be starting with `0x`.                                           |      |         |
 
 ### Optional
 

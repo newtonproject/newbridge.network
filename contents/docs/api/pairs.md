@@ -1,10 +1,11 @@
 ---
-title: Pairs Info API
+title: (Core) Pairs Info API
 description: "lookup pairs"
 author: "Vie Yang"
+weight: 11
 ---
 
-# Pairs Info API
+# (Core) Pairs Info API
 
 ## `GET` Pairs Info
 

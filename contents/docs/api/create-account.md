@@ -1,10 +1,10 @@
 ---
-title: Create Account
-description: API Addresses for different Networks
-weight: 1
+title: (XChain) Create Account
+description: (XChain) Create Account
+weight: 30
 ---
 
-# Create Account
+# (XChain) Create Account
 
 ```proto
 rpc CreateAccount (CreateAccountRequest) returns (CreateAccountReply) {}
@@ -20,9 +20,9 @@ message CreateAccountRequest {
 }
 ```
 
-| **Name** | **Type** | **Description**                                                                                                   |
-| -------- | -------- | ----------------------------------------------------------------------------------------------------------------- |
-| name     | string   | the nick name for the acccount to be created, in newbridge, this is the user's recipient address of another chain |
+| Name | Type   | Description                                                                                                       |
+| ---- | ------ | ----------------------------------------------------------------------------------------------------------------- |
+| name | string | the nick name for the acccount to be created, in newbridge, this is the user's recipient address of another chain |
 
 ### Response
 
@@ -33,7 +33,7 @@ message CreateAccountReply {
 }
 ```
 
-| **Name** | **Type** | \*Description\*\*                                                                                                 |
-| -------- | -------- | ----------------------------------------------------------------------------------------------------------------- |
-| name     | string   | the nick name for the acccount to be created, in newbridge, this is the user's recipient address of another chain |
-| address  | string   | the address of current chain                                                                                      |
+| Name    | Type   | Description                                                                                                       |
+| ------- | ------ | ----------------------------------------------------------------------------------------------------------------- |
+| name    | string | the nick name for the acccount to be created, in newbridge, this is the user's recipient address of another chain |
+| address | string | the address of current chain                                                                                      |
