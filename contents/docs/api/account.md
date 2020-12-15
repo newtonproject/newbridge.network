@@ -1,6 +1,6 @@
 ---
 title: (Core) Account API
-description: "To lookup account in chains"
+description: Lookup account deposit address in NewBrige
 author: "Vie Yang"
 weight: 12
 ---

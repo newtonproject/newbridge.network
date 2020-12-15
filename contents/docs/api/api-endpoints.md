@@ -1,6 +1,6 @@
 ---
 title: API Endpoints
-description: API Endpoints for different Networks
+description: API Endpoints for NewBridge
 weight: 1
 ---
 

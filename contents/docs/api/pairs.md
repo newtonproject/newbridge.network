@@ -1,6 +1,6 @@
 ---
 title: (Core) Pairs Info API
-description: "lookup pairs"
+description: Lookup available chain networks and asset paris for different bridge directions
 author: "Vie Yang"
 weight: 11
 ---
