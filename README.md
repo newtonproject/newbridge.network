@@ -1,10 +1,10 @@
 # NewBridge Network Website
 
-Languages: [English - this doc](README.md) | [中文](README-zh.md)
+Languages: English(This Doc) | [中文](README-zh.md)
 
 This repo is for NewBridge website.
 
-Visit [NewBridge.network ! replace URL](#to-be-replaced).
+Visit [https://newbridge.network](https://newbridge.network/).
 
 ## Quick Starts
 
@@ -12,7 +12,7 @@ This repo contents docs for NewBridge Network. For source code please see the re
 
 ### FAQs
 
-Visit [NewBridge.network ! replace URL](#to-be-replaced).
+Visit [https://newbridge.network/faq](https://newbridge.network/faq).
 
 ### NewBridge Repos
 
@@ -24,7 +24,7 @@ Visit [NewBridge.network ! replace URL](#to-be-replaced).
 
 NewBridge Network Website is using [Hugo](https://gohugo.io) to generate static website.
 
-All configs and settings files for Hugo are placed in `[.configs](.configs)` directory. If you are familiar with Hugo, go into the directory and use it as any other Hugo project.
+All configs and settings files for Hugo are placed in `.configs` directory. If you are familiar with Hugo, go into the directory and use it as any other Hugo project.
 
 And for most people having `NPM` and `Yarn`, we added the hugo-bin and hugo-bin-extended to the Dev Dependencies. Use the following steps to run without install Hugo independently.
 
@@ -40,21 +40,21 @@ yarn
 yarn dev
 ```
 
-For more documentation please see _Docs Section_ on [NewBridge.network ! replace URL](#to-be-replaced).
+For more documentation please see _Docs Section_ on [https://newbridge.network/docs](https://newbridge.network/docs).
 
 ## Contributing
 
 ### Join NewBridge
 
-Visit [NewBridge.network ! replace URL](#to-be-replaced).
+Visit [https://newbridge.network/docs/contributing](https://newbridge.network/docs/contributing).
 
 ### Contributing To Contents
 
-Visit [NewBridge.network ! replace URL](#to-be-replaced).
+Visit [https://newbridge.network/docs/contributing](https://newbridge.network/docs/contributing).
 
 ### Contributing To Source Code
 
-Visit [NewBridge.network ! replace URL](#to-be-replaced).
+Visit [https://newbridge.network/docs/contributing](https://newbridge.network/docs/contributing).
 
 ## License
 
@@ -62,7 +62,7 @@ The content of this project itself is licensed under the [Creative Commons Attri
 
 The contents of this project are placed in `contents` and `contents-*` directories.
 
-----------
+---
 
 ## Legacy Contents
 
@@ -158,7 +158,7 @@ I (@arisac) will update the website program and scripts onces it's ready for tes
 
 - [ ] Update `CLA Link`
 
-- [ ] Update `CNAME` and `DNS`
+- [ ] Update `CNAME file` and `DNS`
 
 ### S4: Future
 
