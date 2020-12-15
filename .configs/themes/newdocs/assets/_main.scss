@@ -411,7 +411,7 @@ aside nav ul {
 footer#site-footer {
   color: var(--footer-content);
   background: var(--footer-bg);
-  font-size: $font-size-12;
+  font-size: $font-size-14;
   .container {
     display: flex;
     flex-direction: row;
@@ -428,12 +428,20 @@ footer#site-footer {
     }
     .brand {
       flex-grow: 1;
-      max-width: $aside-width * 1.5;
+      max-width: $aside-width * 2;
       @media (max-width: $mobile-breakpoint) { 
         max-width: unset;
       }
 
     }
+    .social-icons {
+      font-size: x-large;
+      margin: $as-sm 0;
+      a {
+        color: var(--body-content);
+      }
+    }
+    
     aside {
       margin: $as-sm 0;
       @media (min-width: $mobile-breakpoint) {
@@ -441,7 +449,13 @@ footer#site-footer {
       }
     }
     ul {
-      @include ul-reset;
+      @include ul-reset();
+      li {
+        padding: $as-xs 0;
+        a {
+          color: var(--body-content);
+        }
+      }
     }
     row {
       width: 100%;
