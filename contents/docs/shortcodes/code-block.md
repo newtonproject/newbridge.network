@@ -18,7 +18,6 @@ Will results:
 ## This is the content
 ```
 
-
 ### Syntax Highlight
 
 Add languages after ` ``` `
@@ -32,7 +31,7 @@ document.getElementById('demo').innerHTML = 'Hello JavaScript';
 Will results:
 
 ```javascript
-document.getElementById('demo').innerHTML = 'Hello JavaScript';
+document.getElementById("demo").innerHTML = "Hello JavaScript";
 ```
 
 ### Display Line Numbers
@@ -50,8 +49,8 @@ document.getElementById('demo').innerHTML = 'Hello JavaScript';
 Will results:
 
 ```javascript {linenos=true}"
-document.getElementById('demo').innerHTML = 'Hello JavaScript';
-document.getElementById('demo').innerHTML = 'Hello JavaScript';
+document.getElementById("demo").innerHTML = "Hello JavaScript";
+document.getElementById("demo").innerHTML = "Hello JavaScript";
 ```
 
 ### Change Starting Line Number
