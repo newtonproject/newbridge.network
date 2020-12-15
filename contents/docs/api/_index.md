@@ -1,6 +1,6 @@
 ---
 title: API Docs
-description: Newton Project has provided a public API for user or 3rd-party Apps to use and lookup data in NewBridge.
+description: NewBridge API Documentations
 weight: 5
 ---
 

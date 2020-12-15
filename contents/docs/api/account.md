@@ -1,10 +1,11 @@
 ---
-title: Account API
-description: "To lookup account in chains"
+title: (Core) Account API
+description: Lookup account deposit address in NewBrige
 author: "Vie Yang"
+weight: 12
 ---
 
-# Account API
+# (Core) Account API
 
 ## `GET` Account Info
 
@@ -18,11 +19,11 @@ Returns a JSON structure with details of one account's address in bridged networ
 
 ### Required
 
-| **Name**                   | **In** | **Type** | **Description**                                                                                  | **Enum**            |
-| -------------------------- | ------ | -------- | ------------------------------------------------------------------------------------------------ | ------------------- |
-| direction                  | query  | string   | Specify NewBridge network direction.                                                             | `new2eth` `eth2new` |
-| ethereum_recipient_address | query  | string   | Reciving account on ethereum in `new2eth` direction. Must be address starting with `0x`          |                     |
-| newchain_recipient_address | query  | string   | Reciving account on ethereum in `eth2new` direction. Can be address starting with `NEW` or `0x`. |                     |
+| Name                       | In    | Type   | Description                                                                                      | Enum                |
+| -------------------------- | ----- | ------ | ------------------------------------------------------------------------------------------------ | ------------------- |
+| direction                  | query | string | Specify NewBridge network direction.                                                             | `new2eth` `eth2new` |
+| ethereum_recipient_address | query | string | Reciving account on ethereum in `new2eth` direction. Must be address starting with `0x`          |                     |
+| newchain_recipient_address | query | string | Reciving account on ethereum in `eth2new` direction. Can be address starting with `NEW` or `0x`. |                     |
 
 ```bash
 curl -v https://replace-api-domain.ext/newbridge/account?ethereum_recipient_address=0xad61cc6653B62b7C05Bd2F593Bc49d22Fb901A9c&direction=new2eth
@@ -40,22 +41,22 @@ curl -v https://replace-api-domain.ext/newbridge/account?ethereum_recipient_addr
 }
 ```
 
-| **Name**                       | **Type** | **Description**                                                |
-| ------------------------------ | -------- | -------------------------------------------------------------- |
-| ethereum_recipient_address     | string   | Receiving address in on ethereum for `new2eth` direction.      |
-| newchain_recipient_address     | string   | Receiving address in on newchain for `eth2new` direction.      |
-| newchain_recipient_raw_address | string   | Receiving address in `0x` on newchain for `eth2new` direction. |
-| direction                      | string   | NewBridge network direction                                    |
-| ethereum_deposit_address       | string   | Deposit address on ethereum for `eth2new` direction.           |
-| newchain_deposit_address       | string   | Deposit address on newchain for `new2eth` direction.           |
-| newchain_deposit_raw_address   | string   | Deposit address in `0x` on newchain for `new2eth` direction.   |
+| Name                           | Type   | Description                                                    |
+| ------------------------------ | ------ | -------------------------------------------------------------- |
+| ethereum_recipient_address     | string | Receiving address in on ethereum for `new2eth` direction.      |
+| newchain_recipient_address     | string | Receiving address in on newchain for `eth2new` direction.      |
+| newchain_recipient_raw_address | string | Receiving address in `0x` on newchain for `eth2new` direction. |
+| direction                      | string | NewBridge network direction                                    |
+| ethereum_deposit_address       | string | Deposit address on ethereum for `eth2new` direction.           |
+| newchain_deposit_address       | string | Deposit address on newchain for `new2eth` direction.           |
+| newchain_deposit_raw_address   | string | Deposit address in `0x` on newchain for `new2eth` direction.   |
 
 ### Error Codes
 
-| **Status** | **Code**                     | **Description**                              | **Params**                                                           |
-| ---------- | ---------------------------- | -------------------------------------------- | -------------------------------------------------------------------- |
-| **400**    | account_not_found            | Acount was not found                         |                                                                      |
-| **400**    | address_is_in_invalid_format | Requested address format is not valid        | { "type" => "newchain_address" } or { "type" => "ethereum_address" } |
-| **429**    | too_many_requests            | Too many requests have been made to the api. |                                                                      |
-| **500**    | internal_server_error        | Internal server error                        |                                                                      |
-| **503**    | service_unavailable          | Service is temporary unavailable             |                                                                      |
+| Status  | Code                         | Description                                  | Params                                                               |
+| ------- | ---------------------------- | -------------------------------------------- | -------------------------------------------------------------------- |
+| **400** | account_not_found            | Acount was not found                         |                                                                      |
+| **400** | address_is_in_invalid_format | Requested address format is not valid        | { "type" => "newchain_address" } or { "type" => "ethereum_address" } |
+| **429** | too_many_requests            | Too many requests have been made to the api. |                                                                      |
+| **500** | internal_server_error        | Internal server error                        |                                                                      |
+| **503** | service_unavailable          | Service is temporary unavailable             |                                                                      |

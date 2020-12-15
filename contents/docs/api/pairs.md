@@ -1,10 +1,11 @@
 ---
-title: Pairs Info API
-description: "lookup pairs"
+title: (Core) Pairs Info API
+description: Lookup available chain networks and asset paris for different bridge directions
 author: "Vie Yang"
+weight: 11
 ---
 
-# Pairs Info API
+# (Core) Pairs Info API
 
 ## `GET` Pairs Info
 
