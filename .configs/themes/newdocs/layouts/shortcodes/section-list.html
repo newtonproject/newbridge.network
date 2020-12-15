@@ -5,17 +5,16 @@
       <a href="{{ .RelPermalink }}">{{ partial "docs/title" . }}</a>
     </dt>
   {{ end }}
-  </dl>
+</dl>
 {{ else }}
-<dl>
+<dl class="list-block">
   {{ range .Page.Pages }}
     <dt>
-      <a href="{{ .RelPermalink }}">{{ partial "docs/title" . }}</a>
+      <a href="{{ .RelPermalink }}">
+        <h4>{{ partial "docs/title" . }}</h4>
+        <p>{{ default .Summary .Description }}</p>
+      </a>
     </dt>
-    <dd>
-      {{ default .Summary .Description }}
-    </dd>
   {{ end }}
-  </dl>
-  
+</dl>
 {{ end }}
