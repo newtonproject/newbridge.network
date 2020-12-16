@@ -11,8 +11,6 @@ weight: 12
 
 **`GET` /v1/newbridge/account**
 
-返回 account 的账户基本信息
-
 Returns a JSON structure with details of one account's address in bridged network.
 
 ## API parameters
