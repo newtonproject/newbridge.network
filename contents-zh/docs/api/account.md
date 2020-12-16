@@ -1,3 +1,9 @@
+---
+title: (Core) Account API
+description: 查找用户地址的存款地址
+weight: 12
+---
+
 # `GET` Account Info
 
 \*\*`GET` /v1/newbridge/account

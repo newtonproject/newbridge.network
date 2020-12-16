@@ -6,14 +6,14 @@ weight: 3
 
 # NewBridge Architecture
 
-NewBridge has multiple Components, here is a simplified list:
+NewBridge has multiple components, here is a simplified list:
 
 - NewBridge Core
   - Validator
 - Secure Vault
   - Collection
   - Payout
-- Monitor (Deposit)
+- Monitor
 - APIs
   - NewBridge Service API
   - XChain API
@@ -54,7 +54,7 @@ Each chain has its own `payout` program
 
 ## NewBridge Core (Validator)
 
-NewBridge Core is used to coordinate the user deposit, handling fee, payout;
+`NewBridge Core` is used to coordinate the user deposit, handling fee, payout;
 
 - Input
   - User deposit address
