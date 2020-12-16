@@ -67,6 +67,7 @@
     padding: 0.1rem 0.5rem;
     background: var(--fbg-500);
     border-radius: 0.25rem;
+    font-size: 0.875em;
   }
 
   & > .body > pre {
@@ -94,6 +95,7 @@
       padding: 0;
       background: none;
       color: #{$color-light};
+      font-size: unset;
     }
   }
 
