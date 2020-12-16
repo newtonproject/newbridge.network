@@ -9,7 +9,16 @@ jobs:
   deploy:
     runs-on: ubuntu-18.04
     steps:
-      - uses: actions/checkout@v2
+      - name: Wait on test-contents
+        uses: lewagon/wait-on-check-action@v0.1
+        with:
+          ref: main # can be commit SHA or tag too
+          check-name: test-contents (14.x)
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          wait-interval: 60 # seconds
+      
+      - name: Checkout
+        uses: actions/checkout@v2
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
