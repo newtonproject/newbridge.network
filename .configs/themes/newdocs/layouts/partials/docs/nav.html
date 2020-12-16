@@ -35,22 +35,7 @@
         {{ end }}
       </ul>
 
-      {{ if default true .Site.Params.NewDocsSearch }}
-      <div class="search-form">
-              <input
-                type="text"
-                id="navbar-search-input"
-                placeholder="Search"
-                aria-label="Search"
-                maxlength="64"
-                data-hotkeys="s/"
-              />
-              <div class="newdocs-search-spinner hidden"></div>
-              <div class="search-results">
-                <ul id="navbar-search-results"></ul>
-              </div>
-            </div>
-      {{ end }}
+      {{ partial "docs/search" . }}
 
     </div>
     
