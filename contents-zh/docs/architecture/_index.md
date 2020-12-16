@@ -1,21 +1,26 @@
 ---
-menu:
-  main:
-    name: Architecture
-    weight: 5
-title: Architecture
+title: 架构
+description: NewChain基本架构
+weight: 3
 ---
 
-## Architecture
+## 架构
 
-- [API](../api/README.md)
-  - main api
-  - XChain api
-- monitor (deposit)
-- secure vault
-  - collection
-  - payout
-- core (validator)
+NewBridge 包含如下多个组件：
+
+- NewBridge Core
+  - Validator
+- Secure Vault
+  - Collection
+  - Payout
+- Monitor
+- APIs
+  - NewBridge Service API
+  - XChain API
+
+架构图:
+
+![NewBridge Architecture](newbridge-architecture.jpg)
 
 ## Monitor
 
@@ -46,19 +51,9 @@ title: Architecture
 - transfer
   针对普通 token，由 MainAddress 从自己地址转出 token 到目标地址
 
-### 费用管理
-
-- GasPrice
-  GasPrice 采用链上实时 GasPrice 值，调用链的 eth_gasPrice 方法
-- GasLimit
-  - 针对普通转账，强制采用 90000 ，避免目标地址为合约地址导致转账失败的情况
-  - 针对 token 转账，强制使用 100000， 避免合约内部逻辑复杂导致 token 转账失败
-
-## core (validator)
+## NewBridge Core (validator)
 
 NewBridge Core 用来协调各条区块链程序的用户充值、手续费、兑付等程序；
-
-### 架构
 
 - 输入
   - 用户充值地址

@@ -1,3 +1,9 @@
+---
+title: (Core) Pairs Info API
+description: 查找不同桥接方向的链和资产的桥接对
+weight: 11
+---
+
 # `GET` Pairs Info
 
 **`GET` /v1/newbridge/pairs**
