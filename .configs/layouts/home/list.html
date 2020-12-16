@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}" dir={{ .Site.Language.LanguageDirection }}>
+
+<head>
+  {{ partial "docs/html-head" . }}
+  {{ partial "docs/inject/head" . }}
+  <style>
+    canvas#starfield {
+      display: block;
+      position: fixed;
+      top: 0;
+      left: 0;
+      max-width: 100vw;
+      z-index: -1;
+      overflow: hidden;
+    }
+    nav#navbar {
+      background: unset;
+    }
+	</style>
+</head>
+
+<body dir={{ .Site.Language.LanguageDirection }} class="">
+  <canvas id="starfield"></canvas>
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+    
+  {{ template "nav" . }} 
+    
+  <main class="">
+    <div class="container">
+      {{ template "page-content" . }}
+    </div>
+  </main>
+
+  {{ template "site-footer" . }}
+
+  {{ partial "docs/inject/body" . }}
+  <script src="/assets/sf-init.js"></script>
+</body>
+
+</html>
+
+<!-- Aris start -->
+
+{{ define "nav" }}
+  {{ partial "docs/nav" . }}
+{{ end }}
+
+{{ define "page-content" }}
+  <div class="page-content">
+    {{ template "main" . }} 
+    {{ template "git-info" . }}
+  </div>
+{{ end }}
+
+
+<!-- Aris end -->
+
+{{ define "menu" }}
+  {{ partial "docs/menu" . }}
+{{ end }}
+
+{{ define "header" }}
+  {{ partial "docs/header" . }}
+
+  {{ if default true (default .Site.Params.NewDocsToC .Params.NewDocsToC) }}
+  <aside class="hidden clearfix">
+    {{ template "toc" . }}
+  </aside>
+  {{ end }}
+{{ end }}
+
+{{ define "footer" }}
+  {{ partial "docs/footer" . }}
+{{ end }}
+
+{{ define "git-info" }}
+{{ end }}
+
+{{ define "site-footer" }}
+  {{ partial "docs/site-footer" . }}
+{{ end }}
+
+{{ define "main" }}
+  <article class="markdown">
+    <!-- <div class="body"> -->
+      {{- .Content -}}
+    <!-- </div> -->
+  </article>
+{{ end }}
