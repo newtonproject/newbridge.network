@@ -21,7 +21,7 @@ type: home
 
 <i class="far fa-file-alt"></i>
 
-### Documentation
+### 文档
 
 了解 NewBridge
 
@@ -41,9 +41,9 @@ type: home
 
 <i class="far fa-question-circle"></i>
 
-### FAQs
+### 常见问题
 
-常见问题
+疑问解答
 
 {{< button relref="./faq" >}}查看{{< /button >}}
 
