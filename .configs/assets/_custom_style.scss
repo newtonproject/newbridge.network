@@ -14,7 +14,6 @@ canvas#starfield {
   flex-direction: column;
 }
 
-
 .homepage nav#navbar {
   background: unset;
   a {
@@ -28,13 +27,12 @@ canvas#starfield {
   .banner-s1 {
     display: flex;
     flex-direction: column;
-    margin-bottom: $as-md;
     @media (min-width: $mobile-breakpoint) {
-      margin: 0 20vw;
+      margin: 0 15vw;
     }
     h1, h2 {
-      margin: 0.2em 0;
-      font-weight: 100;
+      margin: 0.1em 0;
+      font-weight: 200;
     }
     h1 {
       font-size: 3.5em;
@@ -43,23 +41,21 @@ canvas#starfield {
         display: none;
       }
       span {
-        font-weight: 100;
+        font-weight: 400;
       }
     }
     h2 {
       font-size: 2.5em;
       @media (max-width: $mobile-breakpoint) {
-        font-size: 1.7em;
+        font-size: 2em;
       }
-      font-weight: normal;
       text-transform: uppercase;
     }
     p {
-      margin: 0;
+      margin: 0.5em 0;
     }
     .launch-app {
       img {
-        margin-top: $as-sm;
         max-width: 90%;
         @media (min-width: $mobile-breakpoint) {
           max-width: 70%;
@@ -68,7 +64,7 @@ canvas#starfield {
       a.btn {
         @extend .rounded-md;
         margin: $as-sm 0;
-        top: $as-sm;
+        // top: $as-sm;
         background: var(--body-content);
         color: var(--body-background);
         padding: $as-sm $as-md;
