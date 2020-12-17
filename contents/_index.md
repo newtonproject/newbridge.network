@@ -6,7 +6,7 @@ type: home
 <div class="banner-s1" id="hyper-jump">
   <h1>New<span>Bridge</span></h1>
   <h2>Connecting Blockchains</h2>
-  <p>With NewBridge, Blockchains Can Be Connected Together. Using NewBridge APIs and App, You Can Easily & Securely Transfer Cross-Chain Assets.</p>
+  <p>NewBridge connects blockchains tgether. With NewBridge App everyone can transfer Cross-Chain Assets easily & securely. Developers can create DApps using NewBridge API.</p>
   <div class="launch-app">
       <img src="home-devices.png" alt="">
       <p>

@@ -60,9 +60,9 @@ canvas#starfield {
     .launch-app {
       img {
         margin-top: $as-sm;
-        max-width: 70%;
+        max-width: 90%;
         @media (min-width: $mobile-breakpoint) {
-          max-width: 60%;
+          max-width: 70%;
         }
       }
       a.btn {
