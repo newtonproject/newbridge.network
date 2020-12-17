@@ -3,59 +3,68 @@ title: Home
 type: home
 ---
 
-<center>
-  桥接链，发现价值，释放价值
-</center>
-
-<center>
- NewBridge能够实现不链不同资产的等价转移
-</center>
-
-{{< columns >}}
-
-<div id="hyper-jump">
-### <center>NewBridge App</center>
-
-<center>
-  启动程序进行资产跨链
-</center>
-
-<center>
-  {{< button relref="./" >}}启动 App{{< /button >}}
-</center>
+<div class="banner-s1" id="hyper-jump">
+  <h1>New<span>Bridge</span></h1>
+  <h2>链接价值孤岛</h2>
+  <p>NewBrdige是牛顿NewChain的跨链机制，实现NewChain与其他主流公链之间的价值平行传输，最大化使用NewChain成本低、速度块、操作门槛低等优势，提高资产流动性。</p>
+  <div class="launch-app">
+      <img src="home-devices.png" alt="">
+      <p>
+        <a class="btn" href="#">启动程序或者在NewPay中操作资产跨链</a>
+      </p>
+  </div>
 </div>
-{{< /columns >}}
+
+<div class="banner-s2">
 
 {{< columns >}}
 
-### <center>文档</center>
+<i class="far fa-file-alt"></i>
 
-<center>
-  查看NewBridge文档或为NewBridge提供贡献
-</center>
+### Documentation
 
-<center>
-  {{< button relref="./docs" >}}查看文档{{< /button >}}
-</center>
+了解 NewBridge
+
+{{< button relref="./docs" >}}查看{{< /button >}}
 
 <--->
 
-### <center>常见文档</center>
+<i class="fas fa-code"></i>
 
-<center>
-  NewBridge常见问题列表
-</center>
+### NewBridge APIs
 
-<center>
-  {{< button relref="./faq" >}}查看常见问题{{< /button >}}
-</center>
+创建跨链 DApp
+
+{{< button relref="./docs/api" >}}查看{{< /button >}}
+
+<--->
+
+<i class="far fa-question-circle"></i>
+
+### FAQs
+
+常见问题
+
+{{< button relref="./faq" >}}查看{{< /button >}}
 
 {{< /columns >}}
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+</div>
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+---
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+## 获取 NewBridge 最新消息
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+关注 Newton Project 最新消息<a href="https://www.twitter.com/newton_project/" rel="noreferrer" target="_blank"> <i class="fab fa-twitter"></i> Twitter</a>
+
+加入 Newton Project <a href="https://www.twitter.com/newton_project/" rel="noreferrer" target="_blank"> <i class="fab fa-telegram-plane"></i> Telegram Group</a>
+
+## NEWTON PROJECT
+
+### 人人贡献，人人受益
+
+查看 NewBridge 代码 <a href="https://github.com/newtonproject/newbridge.network" rel="noreferrer" target="_blank"><i class="fab fa-github"></i> Github</a>
+
+#### 每个人都应该在经济增长中受益
+
+官网 [Newton Project Website](https://www.newtonproject.org)
