@@ -3,58 +3,68 @@ title: Home
 type: home
 ---
 
-Use NewBridge App
-
-need update
-
-{{< columns >}}
-
-<div id="hyper-jump">
-
-### <center>NewBridge App</center>
-
-<center>
-  Get behind NewBridge and View
-</center>
-
-<center>
-  {{< button relref="./" >}}Launch App{{< /button >}}
-</center>
-
+<div class="banner-s1" id="hyper-jump">
+  <h1>New<span>Bridge</span></h1>
+  <h2>Connecting Blockchains</h2>
+  <p>With NewBridge, Blockchains Can Be Connected Together. Using NewBridge APIs and App, You Can Easily & Securely Transfer Cross-Chain Assets.</p>
+  <div class="launch-app">
+      <img src="home-devices.png" alt="">
+      <p>
+        <a class="btn" href="#">Launch App</a>
+      </p>
+  </div>
 </div>
 
-{{< /columns >}}
+<div class="banner-s2">
 
 {{< columns >}}
 
-### <center>View Docs</center>
+<i class="far fa-file-alt"></i>
 
-<center>
-  Get behind NewBridge and ViewGet behind NewBridge and ViewGet behind NewBridge and ViewGet behind NewBridge and ViewGet behind NewBridge and View
-</center>
+### Documentation
 
-<center>
-  {{< button relref="./" >}}Get Home{{< /button >}}
-</center>
+Learn more about NewBridge
+
+{{< button relref="./docs" >}}View{{< /button >}}
 
 <--->
 
-### <center>FAQs</center>
+<i class="fas fa-code"></i>
 
-<center>
-  Get behind NewBridge and View
-</center>
+### NewBridge APIs
 
-<center>
-  {{< button relref="./" >}}See{{< /button >}}
-</center>
+Create Cross-chain Dapps
+
+{{< button relref="./docs/api" >}}View{{< /button >}}
+
+<--->
+
+<i class="far fa-question-circle"></i>
+
+### FAQs
+
+Where questions get answered
+
+{{< button relref="./faq" >}}View{{< /button >}}
 
 {{< /columns >}}
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+</div>
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+---
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+## GET NEWBRIDGE UPDATES
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Follow Newton Project on <a href="https://www.twitter.com/newton_project/" rel="noreferrer" target="_blank"> <i class="fab fa-twitter"></i> Twitter</a>
+
+Join Newton Project <a href="https://www.twitter.com/newton_project/" rel="noreferrer" target="_blank"> <i class="fab fa-telegram-plane"></i> Telegram Group</a>
+
+## NEWTON PROJECT
+
+### Infrastructure for the Community Economy
+
+NewBridge is developed by Newton Project Core Team. And open-sourced on <a href="https://github.com/newtonproject/newbridge.network" rel="noreferrer" target="_blank"><i class="fab fa-github"></i> Github</a>
+
+#### Everyone Should Benefit from Economic Growth
+
+Visit [Newton Project Website](https://www.newtonproject.org)

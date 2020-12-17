@@ -1,1 +1,104 @@
 /* You can add custom styles here. */
+
+canvas#starfield {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  max-width: 100vw;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.homepage main .container {
+  flex-direction: column;
+}
+
+
+.homepage nav#navbar {
+  background: unset;
+  a {
+    color: var(--body-content);
+  }
+}
+
+#home-content {
+  display: flex;
+  flex-direction: column;
+  .banner-s1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: $as-md;
+    @media (min-width: $mobile-breakpoint) {
+      margin: 0 20vw;
+    }
+    h1, h2 {
+      margin: 0.2em 0;
+      font-weight: 100;
+    }
+    h1 {
+      font-size: 3.5em;
+      @media (max-width: $mobile-breakpoint) {
+        font-size: 2.2em;
+        display: none;
+      }
+      span {
+        font-weight: 100;
+      }
+    }
+    h2 {
+      font-size: 2.5em;
+      @media (max-width: $mobile-breakpoint) {
+        font-size: 1.7em;
+      }
+      font-weight: normal;
+      text-transform: uppercase;
+    }
+    p {
+      margin: 0;
+    }
+    .launch-app {
+      img {
+        margin-top: $as-sm;
+        max-width: 70%;
+        @media (min-width: $mobile-breakpoint) {
+          max-width: 60%;
+        }
+      }
+      a.btn {
+        @extend .rounded-md;
+        margin: $as-sm 0;
+        top: $as-sm;
+        background: var(--body-content);
+        color: var(--body-background);
+        padding: $as-sm $as-md;
+        &:hover {
+          color: var(--accent-2);
+          background-color: unset;
+          background-image: linear-gradient(to right top, rgb(7, 25, 49) 0%, rgb(51, 39, 79) 50%, rgb(102, 30, 67) 100%);
+        }
+      }
+    }
+  }
+
+  .banner-s2 {
+    margin: $as-lg 0;
+    padding: 0 $as-lg;
+    i {
+      font-size: $as-lg;
+    }
+    h3 {
+      margin: $as-sm 0;
+    }
+    .newdocs-columns > div {
+      @extend .rounded-sm;
+      margin: $as-sm $as-md;
+      padding: $as-md;
+      background: var(--fbg-200);
+      @extend .transition-color;
+      &:hover {
+        background: var(--fbg-400);
+      }
+    }
+  }
+}
