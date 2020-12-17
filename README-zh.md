@@ -1,6 +1,6 @@
 # NewBridge Network 网站
 
-语言 [English](README.md) | 中文（此文档）
+语言：[English](README.md) | 中文
 
 访问 [https://newbridge.network/zh](https://newbridge.network/zh).
 
@@ -12,7 +12,7 @@
 
 访问 [https://newbridge.network/zh/faq](https://newbridge.network/zh/faq).
 
-### NewBridge 仓库列表
+### NewBridge 仓库列表 ⚠️
 
 - NewBridge Network 网站
 
@@ -56,6 +56,10 @@ yarn dev
 
 ## 许可协议
 
-此项目的内容使用 [Creative Commons Attribution 3.0 Unported license](https://creativecommons.org/licenses/by/3.0/) 许可协议，用于生成静态网站及展示的代码使用 [Apache-2.0 License](LICENSE) 许可协议。
+- 此项目的内容使用 [Creative Commons Attribution 3.0 Unported license](https://creativecommons.org/licenses/by/3.0/) 许可协议。
 
-此项目的内容位于 `contents` 及其他 `contents-*` 目录下。
+- 此项目用于生成静态网站及展示的代码使用 [Apache-2.0 License](LICENSE) 许可协议。
+
+- 部分文件可能包含独立的许可协议，这些文件按照所包含许可协议。
+
+- 此项目的内容位于 `contents` 及其他 `contents-*` 目录下。
