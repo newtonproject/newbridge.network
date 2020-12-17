@@ -29,6 +29,7 @@
     <div id="navbar-collapse">
 
       <ul class="navbar-nav">
+        {{ partial "docs/inject/menu-before" . }}
         {{ partial "docs/menu-navbar" . }}
         {{ if .Site.IsMultiLingual }}
           {{ partial "docs/languages" . }}
