@@ -1,4 +1,4 @@
-baseURL: https://newbridge.newton.bio/
+baseURL: https://newbridge.network/
 title: NewBridge
 theme: newdocs
 
@@ -22,7 +22,6 @@ markup:
     style: monokai
     # Styles To Choose From:
     # api, dracula, monokai, paraiso-dark, native, solarized-dark, solarized-dark-256, vim
-    
 
 ##########
 # Multi-lingual mode config
