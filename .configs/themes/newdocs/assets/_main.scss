@@ -215,6 +215,7 @@ main {
       background: var(--navbar-bg);
       min-width: 10rem;
       padding: $as-sm;
+      right: 0;
       @extend .box-shadow;
       @extend .rounded-sm;
       @media (max-width: $mobile-breakpoint) {
@@ -249,15 +250,20 @@ main {
 
   .search-results {
     position: relative;
-    background: #{$color-deep};
-    @extend .rounded-xs;
+    // background: #{$color-deep};
+    background: var(--secondary-bg);
     z-index: 100;
     max-height: 50vh;
     width: 100%;
-    overflow-y: scroll;
-    @media (min-width: $mobile-breakpoint){
+    overflow-y: auto;
+    margin-top: $as-xs;
+    @extend .rounded-xs;
+    @extend .box-shadow;
+    @media (min-width: $mobile-breakpoint) {
       position: absolute;
       top: $navbar-item-height;
+      right: 0;
+      width: 130%;
     }
     
   }
@@ -273,14 +279,18 @@ main {
       line-height: 1.5em;
       @extend .rounded-xs;
       &:hover {
-        background: #{$color-secondary};
+        // background: #{$color-secondary};
+        background: var(--fbg-300);
       }
       a {
         display: block;
       }
+      strong {
+        font-weight: 600;
+      }
       small {
         display: block;
-        color: white;
+        color: var(--secondary);
       }
     }
   }
@@ -329,7 +339,7 @@ main aside {
     min-width: $aside-width;
     top: $as-lg;
     // top: $navbar-item-height + $as-sm + $as-sm + $as-sm;
-    overflow-y: scroll;
+    overflow-y: auto;
   }
   a {
     // color: inherit;
@@ -368,7 +378,7 @@ section.toc, section.git-info {
   nav {
     @media (min-width: $mobile-breakpoint) {
       max-height: 65vh ;
-      overflow-y: scroll;
+      overflow-y: auto;
     }
   }
   background: var(--fbg-200);

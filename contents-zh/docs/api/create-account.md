@@ -1,3 +1,9 @@
+---
+title: (XChain) 创建账户
+description: NewBridge 的 API Endpoints
+weight: 30
+---
+
 # Create Account
 
 ```proto

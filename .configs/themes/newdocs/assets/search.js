@@ -64,11 +64,11 @@
 
     const searchHits = window.newdocsSearchIndex.search(input.value, 10);
     searchHits.forEach(function (page) {
-      const li = element('<li><a href></a><small></small></li>');
-      const a = li.querySelector('a'), small = li.querySelector('small');
+      const li = element('<li><a href><strong></strong><small></small></a></li>');
+      const a = li.querySelector('a'), title = li.querySelector('strong'), small = li.querySelector('small');
 
       a.href = page.href;
-      a.textContent = page.title;
+      title.textContent = page.title;
       small.textContent = page.section;
 
       results.appendChild(li);

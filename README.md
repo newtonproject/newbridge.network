@@ -1,12 +1,12 @@
 # NewBridge Network Website
 
-Languages: English(This Doc) | [中文](README-zh.md)
+Languages: English | [中文](README-zh.md)
 
 This repo is for NewBridge website.
 
 Visit [https://newbridge.network](https://newbridge.network/).
 
-## Quick Starts
+## Quick Start
 
 This repo contents docs for NewBridge Network. For source code please see the repo list below.
 
@@ -14,7 +14,7 @@ This repo contents docs for NewBridge Network. For source code please see the re
 
 Visit [https://newbridge.network/faq](https://newbridge.network/faq).
 
-### NewBridge Repos
+### NewBridge Repos ⚠️
 
 - NewBridge Network Website
 
@@ -58,11 +58,17 @@ Visit [https://newbridge.network/docs/contributing](https://newbridge.network/do
 
 ## License
 
-The content of this project itself is licensed under the [Creative Commons Attribution 3.0 Unported license](https://creativecommons.org/licenses/by/3.0/), and the underlying source code used to format and display that content is licensed under the [Apache-2.0 License](LICENSE).
+- The content of this project itself is licensed under the [Creative Commons Attribution 3.0 Unported license](https://creativecommons.org/licenses/by/3.0/).
 
-The contents of this project are placed in `contents` and `contents-*` directories.
+- The underlying source code used to format and display that content is licensed under the [Apache-2.0 License](LICENSE).
+
+- Individule files may contains seperated License, those files should use their own Licenses.
+
+- The contents of this project are placed in `contents` and `contents-*` directories.
 
 ---
+
+⚠️ The following contents should be removed before Official Launch
 
 ## Legacy Contents
 
@@ -88,9 +94,9 @@ I (@arisac) will update the website program and scripts onces it's ready for tes
 
 - Others should work on the contents.
 
-**S2: Setup offical repo and move all commits to the offical repo**
+**S2: Setup offical repo and move all commits to the official repo**
 
-- TBD
+- TBD:
 
 **Features Todo List**
 
@@ -106,11 +112,11 @@ I (@arisac) will update the website program and scripts onces it's ready for tes
 
   - ✅ html contents parser
 
-  - contents templates: docs & posts
+  - ✅ contents templates: docs & posts
 
 - Theme
 
-- too many under working, not listed
+- ✅ working version
 
 - Guides
 
@@ -122,9 +128,9 @@ I (@arisac) will update the website program and scripts onces it's ready for tes
 
 - ✅ Setup automation
 
-- Setup the rest `tbd` see checklist below
+- ✅ Setup the rest _tbd_
 
-- Update theme and home
+- ✅ Update theme and home
 
 - Run
 
@@ -144,7 +150,7 @@ I (@arisac) will update the website program and scripts onces it's ready for tes
 
 - Run Test
 
-  - Rerun Contents Check `tbd`
+  - ✅ Rerun Contents Check
 
   - Build Tests `tbd`
 
@@ -154,11 +160,7 @@ I (@arisac) will update the website program and scripts onces it's ready for tes
 
 **Checklist before offical launch**
 
-- [ ] Update `Hugo Config Link`
-
-- [ ] Update `CLA Link`
-
-- [ ] Update `CNAME file` and `DNS`
+⚠️ Moved [to Issue #24](https://github.com/newtonproject/newbridge.network/issues/24)
 
 ### S4: Future
 
