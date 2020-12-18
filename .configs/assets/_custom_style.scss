@@ -27,6 +27,11 @@ canvas#starfield {
     color: var(--body-content);
   }
 }
+nav#navbar {
+  a {
+    color: var(--body-content);
+  }
+}
 
 #home-content {
   display: flex;
@@ -69,14 +74,13 @@ canvas#starfield {
         }
       }
       a.btn {
-        @extend .rounded-md;
+        @extend .rounded-pill;
         margin: $as-sm 0;
         font-size: medium;
         background: var(--body-content);
         color: var(--body-background);
         padding: $as-sm $as-md;
-        text-transform: uppercase;
-        font-weight: 700;
+        font-weight: bold;
         &:hover {
           color: white;
           background-color: var(--accent-2);;
