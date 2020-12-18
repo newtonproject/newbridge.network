@@ -1,9 +1,5 @@
 ---
 title: NewBridge Testnet App
-menu:
-  main:
-    parent: 更多
-    name: 测试网 App
 ---
 
 # NewBridge 测试网 App

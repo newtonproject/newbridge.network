@@ -10,7 +10,7 @@ type: home
   <div class="launch-app">
       <img src="home-devices.png" alt="">
       <p>
-        <a class="btn" href="#">启动程序或者在NewPay中操作资产跨链</a>
+        <a class="btn" href="#">App 程序即将上线</a>
       </p>
   </div>
 </div>
