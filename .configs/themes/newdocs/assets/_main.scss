@@ -215,6 +215,7 @@ main {
       background: var(--navbar-bg);
       min-width: 10rem;
       padding: $as-sm;
+      right: 0;
       @extend .box-shadow;
       @extend .rounded-sm;
       @media (max-width: $mobile-breakpoint) {
@@ -283,6 +284,9 @@ main {
       }
       a {
         display: block;
+      }
+      strong {
+        font-weight: 600;
       }
       small {
         display: block;
