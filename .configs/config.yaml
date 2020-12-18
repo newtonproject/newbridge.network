@@ -1,6 +1,6 @@
 baseURL: https://newbridge.network/
 title: NewBridge
-theme: newxdocs
+theme: newdocs
 
 ##########
 # NewDocs configuration

@@ -12,4 +12,4 @@ There are several types of documentation available on this website:
 
 ## Browse Docs
 
-{{< section-list >}}
+{{< sectionx-list >}}
