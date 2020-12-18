@@ -1,6 +1,6 @@
 ---
 title: 架构
-description: NewChain基本架构
+description: NewBridge基本架构
 weight: 3
 ---
 
