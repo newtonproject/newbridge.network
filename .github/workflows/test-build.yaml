@@ -3,26 +3,6 @@ name: Build Test
 on: [push, pull_request]
 
 jobs:
-  dev-test:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [14.x]
-        # node-version: [12.x, 14.x]
-    steps:
-      - name: Check out Git repository
-        uses: actions/checkout@v2
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
-        with:
-          node-version: ${{ matrix.node-version }}
-      - name: Install Modules
-        run: yarn
-      - name: Contents Check
-        run: yarn check-contents
-      - name: Build Test
-            working-directory: ./.configs
-            run: hugo --minify
 
   production-test:
     runs-on: ubuntu-18.04
@@ -32,11 +12,13 @@ jobs:
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: '0.78.1'
           extended: true
+          
       - name: Build Test
         working-directory: ./.configs
         run: hugo --minify
