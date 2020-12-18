@@ -15,9 +15,17 @@ jobs:
           ref: main # can be commit SHA or tag too
           check-name: test-contents (14.x)
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          wait-interval: 60 # seconds
+          wait-interval: 30 # seconds
       
-      - name: Checkout
+      - name: Wait on production-test
+        uses: lewagon/wait-on-check-action@v0.1
+        with:
+          ref: main # can be commit SHA or tag too
+          check-name: production-test
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          wait-interval: 30 # seconds
+      
+      - name: Check out Git repository
         uses: actions/checkout@v2
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
