@@ -1,9 +1,5 @@
 ---
 title: NewBridge Testnet App
-menu:
-  main:
-    parent: More
-    name: Testnet App
 ---
 
 # NewBridge Testnet App

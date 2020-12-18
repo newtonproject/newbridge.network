@@ -10,7 +10,7 @@ type: home
   <div class="launch-app">
       <img src="home-devices.png" alt="">
       <p>
-        <a class="btn" href="#">Launch App</a>
+        <a class="btn" href="#">App Launch Coming Soon</a>
       </p>
   </div>
 </div>
