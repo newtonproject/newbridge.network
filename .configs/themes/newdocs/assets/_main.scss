@@ -20,7 +20,6 @@ body {
 //   transition: all 0.2s;
 // }
 
-
 h1,
 h2,
 h3,
@@ -392,6 +391,37 @@ section.toc, section.git-info {
   background: var(--fbg-200);
   &:hover {
     background: var(--fbg-300);
+  }
+}
+
+#toc-control {
+  label#toc-check {
+    display: block;
+  }
+  nav#TableOfContents {
+    transition: all 0.3s;
+  }
+  @media (max-width: $mobile-breakpoint) {
+    &:not(:checked) ~ nav#TableOfContents {
+      height: 0;
+      overflow: hidden;
+    }
+    &:checked ~ nav#TableOfContents {
+      height: inherit;
+      overflow-y: auto;
+    }
+    &:not(:checked) ~ * #toc-check {
+      position: relative;
+    }
+    &:checked ~ * #toc-icon {
+      transform: rotate(180deg);
+    }
+  }
+}
+
+#toc-icon {
+  @media (min-width: $mobile-breakpoint) {
+    display: none;
   }
 }
 

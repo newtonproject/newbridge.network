@@ -37,9 +37,17 @@
 {{ end }}
 
 {{ define "aside-b" }}
-  <input type="checkbox" class="hidden toggle" id="toc-control" />
   <aside id="aside-b">
     <section class="toc">
+      <input type="checkbox" class="hidden toggle" id="toc-control" />
+      <label class="toggle" for="toc-control" id="toc-check">
+        <h3>
+          {{ i18n "page-toc" }} 
+          <svg class='icon' id="toc-icon">
+            <use xlink:href='/icons/bootstrap-icons.svg#caret-down-fill'/>
+          </svg>
+        </h3>
+      </label>
       {{ template "toc" . }} 
     </section>
   </aside>

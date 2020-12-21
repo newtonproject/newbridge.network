@@ -19,6 +19,9 @@
 - id: Back to
   translation: Back to
 
+- id: page-toc
+  translation: On This Page
+
 - id: footer-info-text
   translation: NewBridge Network is presented by Newton Project.
 
