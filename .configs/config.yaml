@@ -94,6 +94,22 @@ params:
   # For backward compatibility you can set '*' to render all sections to menu. Acts same as '/'
   NewDocsSection: /
 
+  # Social Icons
+  # This theme uses icons by https://fontawesome.com
+  social:
+    - title: Github
+      url: 'https://github.com/newtonproject/newbridge.network'
+      icon: github
+      icon_pack: fab
+    - title: Twitter
+      url: 'https://twitter.com/newton_project'
+      icon: twitter
+      icon_pack: fab
+    - title: Telegram
+      url: 'https://t.me/newtonproject'
+      icon: telegram-plane
+      icon_pack: fab
+
   # Git repository location
   # Set source repository location.
   # Used for 'Last Modified' and 'Edit this page' links.
