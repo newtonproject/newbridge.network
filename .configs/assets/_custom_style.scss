@@ -1,12 +1,4 @@
 /* You can add custom styles here. */
-
-nav#navbar {
-  background: unset;
-  a {
-    color: var(--body-content);
-  }
-}
-
 canvas#starfield {
   display: block;
   position: fixed;
@@ -21,8 +13,15 @@ canvas#starfield {
   flex-direction: column;
 }
 
+.homepage main {
+  padding-top: 0;
+}
+
 .homepage nav#navbar {
+  position: relative;
   background: unset;
+  -webkit-backdrop-filter: unset;
+  backdrop-filter: unset;
   a {
     color: var(--body-content);
   }

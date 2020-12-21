@@ -20,7 +20,6 @@ body {
 //   transition: all 0.2s;
 // }
 
-
 h1,
 h2,
 h3,
@@ -84,9 +83,13 @@ body {
   }
 }
 
+html, body {
+  scroll-padding-top: $navbar-item-height + $as-sm + $as-sm;
+}
+
 main {
   color: var(--body-content);
-  // padding-top: $navbar-item-height + $as-sm + $as-sm;
+  padding-top: $navbar-item-height + $as-sm + $as-sm;
   .container {
     padding: $as-md $as-lg;
     @media (max-width: $mobile-breakpoint) {
@@ -102,9 +105,11 @@ main {
 
 // Site Navbar
 #navbar {
-  // position: fixed;
+  position: fixed;
   width: 100%;
   background: var(--navbar-bg);
+  backdrop-filter: blur(#{$as-md});
+  -webkit-backdrop-filter: blur(#{$as-md});
   font-size: $font-size-14;
   z-index: 100;
   @extend .box-shadow;
@@ -213,6 +218,8 @@ main {
       position: absolute;
       z-index: 1;
       background: var(--navbar-bg);
+      backdrop-filter: blur(#{$as-md});
+      -webkit-backdrop-filter: blur(#{$as-md});
       min-width: 10rem;
       padding: $as-sm;
       right: 0;
@@ -337,8 +344,8 @@ main aside {
     align-self: flex-start;
     position: sticky;
     min-width: $aside-width;
-    top: $as-lg;
-    // top: $navbar-item-height + $as-sm + $as-sm + $as-sm;
+    // top: $as-lg;
+    top: $navbar-item-height + $as-sm + $as-md + $as-sm;
     overflow-y: auto;
   }
   a {
@@ -384,6 +391,37 @@ section.toc, section.git-info {
   background: var(--fbg-200);
   &:hover {
     background: var(--fbg-300);
+  }
+}
+
+#toc-control {
+  label#toc-check {
+    display: block;
+  }
+  nav#TableOfContents {
+    transition: all 0.3s;
+  }
+  @media (max-width: $mobile-breakpoint) {
+    &:not(:checked) ~ nav#TableOfContents {
+      height: 0;
+      overflow: hidden;
+    }
+    &:checked ~ nav#TableOfContents {
+      height: inherit;
+      overflow-y: auto;
+    }
+    &:not(:checked) ~ * #toc-check {
+      position: relative;
+    }
+    &:checked ~ * #toc-icon {
+      transform: rotate(180deg);
+    }
+  }
+}
+
+#toc-icon {
+  @media (min-width: $mobile-breakpoint) {
+    display: none;
   }
 }
 
