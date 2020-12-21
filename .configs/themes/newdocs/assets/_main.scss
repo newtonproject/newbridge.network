@@ -84,9 +84,13 @@ body {
   }
 }
 
+html, body {
+  scroll-padding-top: $navbar-item-height + $as-sm + $as-sm;
+}
+
 main {
   color: var(--body-content);
-  // padding-top: $navbar-item-height + $as-sm + $as-sm;
+  padding-top: $navbar-item-height + $as-sm + $as-sm;
   .container {
     padding: $as-md $as-lg;
     @media (max-width: $mobile-breakpoint) {
@@ -102,9 +106,11 @@ main {
 
 // Site Navbar
 #navbar {
-  // position: fixed;
+  position: fixed;
   width: 100%;
   background: var(--navbar-bg);
+  backdrop-filter: blur(#{$as-md});
+  -webkit-backdrop-filter: blur(#{$as-md});
   font-size: $font-size-14;
   z-index: 100;
   @extend .box-shadow;
@@ -213,6 +219,8 @@ main {
       position: absolute;
       z-index: 1;
       background: var(--navbar-bg);
+      backdrop-filter: blur(#{$as-md});
+      -webkit-backdrop-filter: blur(#{$as-md});
       min-width: 10rem;
       padding: $as-sm;
       right: 0;
@@ -337,8 +345,8 @@ main aside {
     align-self: flex-start;
     position: sticky;
     min-width: $aside-width;
-    top: $as-lg;
-    // top: $navbar-item-height + $as-sm + $as-sm + $as-sm;
+    // top: $as-lg;
+    top: $navbar-item-height + $as-sm + $as-md + $as-sm;
     overflow-y: auto;
   }
   a {

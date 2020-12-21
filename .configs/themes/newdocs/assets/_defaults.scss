@@ -94,7 +94,7 @@ $color-orange: #FF9500;
   --highlight-neutral-rgb: 22, 33, 44;
 
   // Navbar
-  --navbar-bg: white;
+  --navbar-bg: rgba(255,255,255,0.9);
 
   // Named Color
   --hint-color-green: #20C5A0;
@@ -120,8 +120,6 @@ $color-orange: #FF9500;
 
   --search-bg: rgba(0,0,0,0.05);
 }
-
-
 
 @mixin theme-dark {
   // Main Color
@@ -154,7 +152,7 @@ $color-orange: #FF9500;
   --highlight-neutral-rgb: 255, 255, 255;
 
   // Navbar
-  --navbar-bg: #{$color-primary};
+  --navbar-bg: rgba(0,0,0,0.7);
 
   // Named Color
   --hint-color-green: #20C5A0;
