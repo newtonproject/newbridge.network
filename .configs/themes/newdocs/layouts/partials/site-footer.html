@@ -1,8 +1,8 @@
 <footer id="site-footer">
   <div class="container">
     <div class="brand">
-      <a class="footer-brand" href="/">
-        <img src="/logo.svg" class="logo invert" alt="Logo"/>
+      <a class="footer-brand" href="{{.Site.BaseURL}}">
+        <img src="{{.Site.BaseURL}}/logo.svg" class="logo invert" alt="Logo"/>
       </a>
       <p class="footer-info-text">
         {{ i18n "footer-info-text" }}
@@ -12,12 +12,7 @@
       
     </div>
     <aside>
-      <ul>
-        <h3>{{ i18n "footer-newton-project" }}</h3>
-        <li><a href="https://www.newtonproject.org">{{ i18n "footer-newton-web" }}</a></li>
-        <li><a href="https://developer.newtonproject.org">{{ i18n "footer-dev-web" }}</a></li>
-        <li><a href="https://www.newtonproject.org/contact/">{{ i18n "footer-contact-team" }}</a></li>
-      </ul>
+      {{ partial "footer-links.html" . }}
     </aside>
     <row>
       <p>{{ i18n "footer-cpr" }}</p>
@@ -26,5 +21,3 @@
   </div>
   
 </footer>
-
-  {{ partial "menu-bundle" . }}
