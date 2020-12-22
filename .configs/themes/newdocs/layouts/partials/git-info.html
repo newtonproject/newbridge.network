@@ -1,6 +1,6 @@
 {{ if and .GitInfo .Site.Params.NewDocsRepo }}
 <section class="git-info">
-    {{- $date := partial "docs/date" (dict "Date" .GitInfo.AuthorDate.Local "Format" .Site.Params.NewDocsDateFormat) -}}
+    {{- $date := partial "date" (dict "Date" .GitInfo.AuthorDate.Local "Format" .Site.Params.NewDocsDateFormat) -}}
     <a href="{{ .Site.Params.NewDocsRepo }}/commit/{{ .GitInfo.Hash }}" title='{{ i18n "Last modified by" }} {{ .GitInfo.AuthorName }} | {{ $date }}' target="_blank" rel="noopener">
       <span>{{ i18n "Last modified by" }} {{ .GitInfo.AuthorName }} </span>
     </a>

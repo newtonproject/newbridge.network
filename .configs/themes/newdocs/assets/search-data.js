@@ -24,8 +24,8 @@
   index.add({
     'id': {{ $index }},
     'href': '{{ $page.RelPermalink }}',
-    'title': {{ (partial "docs/title" $page) | jsonify }},
-    'section': {{ (partial "docs/title" $page.Parent) | jsonify }},
+    'title': {{ (partial "title" $page) | jsonify }},
+    'section': {{ (partial "title" $page.Parent) | jsonify }},
     'content': {{ $page.Plain | jsonify }}
   });
   {{- end -}}

@@ -2,7 +2,7 @@
 <dl>
   {{ range .Page.Pages }}
     <dt>
-      <a href="{{ .RelPermalink }}">{{ partial "docs/title" . }}</a>
+      <a href="{{ .RelPermalink }}">{{ partial "title" . }}</a>
     </dt>
   {{ end }}
 </dl>
@@ -11,7 +11,7 @@
   {{ range .Page.Pages }}
     <dt>
       <a href="{{ .RelPermalink }}">
-        <h4>{{ partial "docs/title" . }}</h4>
+        <h4>{{ partial "title" . }}</h4>
         <p>{{ default .Summary .Description }}</p>
       </a>
     </dt>

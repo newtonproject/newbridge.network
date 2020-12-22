@@ -4,7 +4,7 @@
     <h2>
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>
     </h2>
-    {{ partial "docs/post-meta" . }}
+    {{ partial "post-meta" . }}
     <p>
       {{- .Summary -}}
       {{ if .Truncated }}
@@ -18,5 +18,5 @@
 {{ end }}
 
 {{ define "toc" }}
-  {{ partial "docs/taxonomy" . }}
+  {{ partial "taxonomy" . }}
 {{ end }}

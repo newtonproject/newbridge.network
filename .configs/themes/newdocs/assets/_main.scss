@@ -84,7 +84,7 @@ body {
 }
 
 html, body {
-  scroll-padding-top: $navbar-item-height + $as-sm + $as-sm;
+  scroll-padding-top: $navbar-item-height + $as-sm + $as-sm + $as-lg;
 }
 
 main {
@@ -222,13 +222,17 @@ main {
       -webkit-backdrop-filter: blur(#{$as-md});
       min-width: 10rem;
       padding: $as-sm;
-      right: 0;
+      left: 50%;
+      right: auto;
+      transform: translate(-50%, 0);
       @extend .box-shadow;
       @extend .rounded-sm;
       @media (max-width: $mobile-breakpoint) {
         position: relative;
         padding-left: $as-sm;
         margin: $as-xxs $as-xs;
+        left: unset;
+        transform: unset;
       }
       a {
         display: block;
