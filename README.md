@@ -74,9 +74,10 @@ Visit [https://newbridge.network/docs/contributing](https://newbridge.network/do
 
 ## License
 
-- The content of this project itself is licensed under the [Creative Commons Attribution 3.0 Unported license](https://creativecommons.org/licenses/by/3.0/).
+- The content of this project itself is licensed under the [CC0 1.0 Universal (CC0 1.0)
+Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).
 
-- The underlying source code used to format and display that content is licensed under the [Apache-2.0 License](LICENSE).
+- The underlying source code used to format and display that content is licensed under the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
 - Individule files may contains seperated License, those files should use their own Licenses.
 

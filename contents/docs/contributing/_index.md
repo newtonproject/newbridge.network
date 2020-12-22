@@ -58,4 +58,6 @@ yarn format-contents
 
 ## License
 
-By contributing to NewBridge Network Website, you agree that your contributions will be licensed under its [Creative Commons Attribution 3.0 Unported license](https://creativecommons.org/licenses/by/3.0/) and [Apache-2.0 License](https://www.apache.org/licenses/LICENSE-2.0).
+By contributing to NewBridge Network Website, you agree that your contributions will be licensed under its [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) and [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+
+See [README on Github](https://github.com/newtonproject/newbridge.network#license) for more information.

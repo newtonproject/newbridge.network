@@ -78,9 +78,10 @@ yarn dev
 
 ## 许可协议
 
-- 此项目的内容使用 [Creative Commons Attribution 3.0 Unported license](https://creativecommons.org/licenses/by/3.0/) 许可协议。
+- 此项目的内容使用 [CC0 1.0 Universal (CC0 1.0)
+Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/) 许可协议。
 
-- 此项目用于生成静态网站及展示的代码使用 [Apache-2.0 License](LICENSE) 许可协议。
+- 此项目用于生成静态网站及展示的代码使用 [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0) 许可协议。
 
 - 部分文件可能包含独立的许可协议，这些文件按照所包含许可协议。
 
