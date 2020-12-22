@@ -24,7 +24,29 @@ NewBridge Network 使用 [Hugo](https://gohugo.io) 生成静态网站文件。
 
 所有的 Hugo 设置相关文件位于 `.configs` 目录下。如果你熟悉 Hugo，可直接进入该目录像其他 Hugo 项目一样来使用。
 
+本网站使用 [NewDocs 主题](https://github.com/newtonproject/newdocs-hugo)。
+
 对于大部分使用 `NPM` 和 `Yarn` 进行包管理的开发者，我们添加了 hugo-bin 和 hugo-bin-extended 作为开发依赖。使用下面的说明可无须单独安装 Hugo 来运行此网站。
+
+**克隆此仓库**
+
+克隆并更新 submodule：
+
+```bash
+git clone --recursive git@github.com:newtonproject/newbridge.network.git
+```
+
+如果没有使用 `--recursive` 参数克隆，需要更新 submodule 获取主题：
+
+```bash
+git submodule update --init --recursive
+```
+
+安装依赖：
+
+```bash
+yarn
+```
 
 **安装依赖**
 
