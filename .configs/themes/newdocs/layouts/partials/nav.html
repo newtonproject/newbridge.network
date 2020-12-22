@@ -29,14 +29,14 @@
     <div id="navbar-collapse">
 
       <ul class="navbar-nav">
-        {{ partial "docs/inject/menu-before" . }}
-        {{ partial "docs/menu-navbar" . }}
+        {{ partial "inject/menu-before" . }}
+        {{ partial "menu-navbar" . }}
         {{ if .Site.IsMultiLingual }}
-          {{ partial "docs/languages" . }}
+          {{ partial "languages" . }}
         {{ end }}
       </ul>
 
-      {{ partial "docs/search" . }}
+      {{ partial "search" . }}
 
     </div>
     

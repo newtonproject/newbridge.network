@@ -2,8 +2,8 @@
 <html lang="{{ .Site.Language.Lang }}" dir={{ .Site.Language.LanguageDirection }}>
 
 <head>
-  {{ partial "docs/html-head" . }}
-  {{ partial "docs/inject/head" . }}
+  {{ partial "html-head" . }}
+  {{ partial "inject/head" . }}
 </head>
 
 <body dir={{ .Site.Language.LanguageDirection }} class="full">
@@ -38,7 +38,7 @@
 
   {{ template "site-footer" . }} <!-- Site Footer -->
 
-  {{ partial "docs/inject/body" . }}
+  {{ partial "inject/body" . }}
 </body>
 
 </html>
@@ -46,17 +46,17 @@
 <!-- Aris start -->
 
 {{ define "nav" }}
-  {{ partial "docs/nav" . }}
+  {{ partial "nav" . }}
 {{ end }}
 
 <!-- Aris end -->
 
 {{ define "menu" }}
-  {{ partial "docs/menu" . }}
+  {{ partial "menu" . }}
 {{ end }}
 
 {{ define "header" }}
-  {{ partial "docs/header" . }}
+  {{ partial "header" . }}
 
   {{ if default true (default .Site.Params.NewDocsToC .Params.NewDocsToC) }}
   <aside class="hidden clearfix">
@@ -66,21 +66,21 @@
 {{ end }}
 
 {{ define "footer" }}
-  {{ partial "docs/footer" . }}
+  {{ partial "footer" . }}
 {{ end }}
 
 {{ define "git-info" }}
-  {{ partial "docs/git-info" . }}
+  {{ partial "git-info" . }}
 {{ end }}
 
 {{ define "site-footer" }}
-  {{ partial "docs/site-footer" . }}
+  {{ partial "site-footer" . }}
 {{ end }}
 
 {{ define "comments" }}
   {{ if and .Content (default true (default .Site.Params.NewDocsComments .Params.NewDocsComments)) }}
   <div class="newdocs-comments">
-    {{- partial "docs/comments" . -}}
+    {{- partial "comments" . -}}
   </div>
   {{ end }}
 {{ end }}
@@ -95,5 +95,5 @@
 {{ end }}
 
 {{ define "toc" }}
-  {{ partial "docs/toc" . }}
+  {{ partial "toc" . }}
 {{ end }}

@@ -3,7 +3,7 @@
   <h1>
     <a href="{{ .RelPermalink }}">{{ .Title }}</a>
   </h1>
-  {{ partial "docs/post-meta" . }}
+  {{ partial "post-meta" . }}
   <p>
     {{- .Content -}}
   </p>
@@ -11,5 +11,5 @@
 {{ end }}
 
 {{ define "toc" }}
-  {{ partial "docs/toc" . }}
+  {{ partial "toc" . }}
 {{ end }}
