@@ -16,8 +16,6 @@ We’re still working out the kinks to make contributing to this project as easy
 
 Submit all changes directly to the `main branch`. We don’t use separate branches for development or for upcoming releases. We do our best to keep `main` in good shape, with all tests passing. Any accepted changes in `main` will be automatically tested and deployed once the tests are passed.
 
-Code that lands in `main` must be compatible with the latest stable release. It may contain additional features, but no breaking changes. We should be able to release a new minor version from the tip of `main` at any time.
-
 ## Bugs
 
 ### Where to Find Known Issues
@@ -37,6 +35,8 @@ We are accepting documentation contributions to contents. As well as translation
 In order to accept your pull request, we need you to submit a CLA.
 
 Once you open a pull request, the CLA Bot will check if you have previously signed a CLA to the repo you are contributing to. If not, please follow the CLA Bot's message to finish signing CLA. For each repo, you have only sign the CLA once.
+
+View [Contributor License Agreement](../../cla.md).
 
 ## Style Guide
 

@@ -1,6 +1,6 @@
 ---
 NewDocsCollapseSection: true
-title: Section List
+title: Section List Shortcode
 ---
 
 # Section List
