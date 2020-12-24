@@ -1,3 +1,7 @@
+---
+title: Details Shortcode
+---
+
 # Details
 
 Details shortcode is a helper for [HTML Details Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details).

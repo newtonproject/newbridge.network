@@ -1,3 +1,7 @@
+---
+title: KaTex Shortcode
+---
+
 # KaTeX
 
 KaTeX shortcode let you render math typesetting in markdown document.
