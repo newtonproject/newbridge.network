@@ -44,6 +44,16 @@ end
 
 ## Flowchart
 
+{{<mermaid class="text-center" >}}
+graph TD;
+A-->B;
+A-->C;
+B-->D;
+C-->D;
+{{</mermaid>}}
+
+{{< details title="View Code" >}}
+
 ```tpl
 {{</*mermaid class="text-center"*/>}}
 graph TD;
@@ -54,15 +64,25 @@ graph TD;
 {{</*/mermaid */>}}
 ```
 
-{{<mermaid class="text-center" >}}
-graph TD;
-A-->B;
-A-->C;
-B-->D;
-C-->D;
-{{</mermaid>}}
+{{< /details >}}
 
 ## Sequence diagram
+
+{{<mermaid class="text-center">}}
+sequenceDiagram
+participant Alice
+participant Bob
+Alice->>John: Hello John, how are you?
+loop Healthcheck
+John->>John: Fight against hypochondria
+end
+Note right of John: Rational thoughts <br/>prevail!
+John-->>Alice: Great!
+John->>Bob: How about you?
+Bob-->>John: Jolly good!
+{{</mermaid>}}
+
+{{< details title="View Code" >}}
 
 ```tpl
 {{</*mermaid class="text-center"*/>}}
@@ -80,16 +100,4 @@ sequenceDiagram
 {{</*/mermaid*/>}}
 ```
 
-{{<mermaid class="text-center">}}
-sequenceDiagram
-participant Alice
-participant Bob
-Alice->>John: Hello John, how are you?
-loop Healthcheck
-John->>John: Fight against hypochondria
-end
-Note right of John: Rational thoughts <br/>prevail!
-John-->>Alice: Great!
-John->>Bob: How about you?
-Bob-->>John: Jolly good!
-{{</mermaid>}}
+{{< /details >}}
