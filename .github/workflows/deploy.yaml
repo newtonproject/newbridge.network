@@ -38,4 +38,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./.configs/public
-          cname: newbridge.network
+          cname: ${{ secrets.CNAME_FOR_GITHUB_PAGES }} # Using Github Secrets for setting cname, 'newbridge.network' for this repo
