@@ -5,7 +5,7 @@ description: Shortcodes for making the contents better.
 weight: 15
 ---
 
-# About Shortcodes
+## About Shortcodes
 
 NewBridge website is using markdown format for documentations. Of course markdown is great for documents, but it is also very limited for website layout and functions.
 

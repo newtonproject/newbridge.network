@@ -6,8 +6,6 @@ menu:
     weight: 3
 ---
 
-# 常见问题
-
 ## 什么是 NewBridge?
 
 NewBridge 跨链技术实现了 NewChain 和其他区块链间的数字资产互通，现已支持 NewChain 和以太坊之间的三种通证 NEW、USDT、ETH 互通，以后会陆续增加更多资产。

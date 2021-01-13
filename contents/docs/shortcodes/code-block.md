@@ -2,8 +2,6 @@
 title: Code Block Shortcode
 ---
 
-# Code Block
-
 Settings for generate different functions Code Blocks
 
 ## Code Example

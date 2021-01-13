@@ -4,8 +4,6 @@ description: API Endpoints for NewBridge
 weight: 1
 ---
 
-# API Endpoints
-
 We provided public API addresses for NewBridge.
 
 ## NewBridge Core API

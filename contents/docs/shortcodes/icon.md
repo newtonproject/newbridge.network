@@ -2,8 +2,6 @@
 title: Icon Shortcode
 ---
 
-# Icon Shortcode
-
 We've intergrated [Bootstrap Icons](https://icons.getbootstrap.com) for using vector icons in the website.
 
 ## Code Example

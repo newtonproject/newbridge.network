@@ -2,6 +2,9 @@
 /.configs/public
 /.configs/resources
 
+# theme dev debug
+/.configs/themes/newdocs-dev
+
 # NPM
 node_modules
 
@@ -15,3 +18,4 @@ $RECYCLE.BIN/
 # OSX
 .DS_Store
 .idea
+

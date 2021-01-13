@@ -1,12 +1,10 @@
 ---
-title: Frequently Asked Questions
+title: FAQ for NewBridge
 menu:
   main:
     name: FAQ
     weight: 3
 ---
-
-# FAQ for NewBridge
 
 ## What is NewBridge?
 

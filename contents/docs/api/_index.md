@@ -4,8 +4,6 @@ description: NewBridge API Documentations
 weight: 5
 ---
 
-# NewBridge API Docs
-
 Welcome to NewBridge API documents for Developers.
 
 ## Introduction

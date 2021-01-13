@@ -5,8 +5,6 @@ author: "Vie Yang"
 weight: 11
 ---
 
-# (Core) Pairs Info API
-
 ## `GET` Pairs Info
 
 **`GET` /v1/newbridge/pairs**

@@ -4,7 +4,7 @@ description: NewBridge 的 API Endpoints
 weight: 30
 ---
 
-# Create Account
+## Create Account
 
 ```proto
 rpc CreateAccount (CreateAccountRequest) returns (CreateAccountReply) {}
