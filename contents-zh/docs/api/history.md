@@ -4,8 +4,6 @@ description: 返回一个JSON结构，其中包含指定帐户的NewBridge桥接
 weight: 13
 ---
 
-# (Core) Account History API
-
 ## `GET` Account History
 
 **`GET` /v1/newbridge/history**

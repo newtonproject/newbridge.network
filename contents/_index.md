@@ -19,7 +19,7 @@ type: home
 
 {{< columns >}}
 
-<i class="far fa-file-alt"></i>
+<i class="nf nf-fa-file_text_o"></i>
 
 ### Documentation
 
@@ -29,7 +29,7 @@ Learn more about NewBridge
 
 <--->
 
-<i class="fas fa-code"></i>
+<i class="nf nf-fa-code"></i>
 
 ### NewBridge APIs
 
@@ -39,7 +39,7 @@ Create Cross-chain Dapps
 
 <--->
 
-<i class="far fa-question-circle"></i>
+<i class="nf nf-fa-question_circle_o"></i>
 
 ### FAQs
 
@@ -55,15 +55,15 @@ Where questions get answered
 
 ## GET NEWBRIDGE UPDATES
 
-Follow Newton Project on <a href="https://www.twitter.com/newton_project/" rel="noreferrer" target="_blank"> <i class="fab fa-twitter"></i> Twitter</a>
+Follow Newton Project on <a href="https://www.twitter.com/newton_project/" rel="noreferrer" target="_blank">Twitter</a>
 
-Join Newton Project <a href="https://www.twitter.com/newton_project/" rel="noreferrer" target="_blank"> <i class="fab fa-telegram-plane"></i> Telegram Group</a>
+Join Newton Project <a href="https://www.twitter.com/newton_project/" rel="noreferrer" target="_blank">Telegram Group</a>
 
 ## NEWTON PROJECT
 
 ### Infrastructure for the Community Economy
 
-NewBridge is developed by Newton Project Core Team. And open-sourced on <a href="https://github.com/newtonproject/newbridge.network" rel="noreferrer" target="_blank"><i class="fab fa-github"></i> Github</a>
+NewBridge is developed by Newton Project Core Team. And open-sourced on <a href="https://github.com/newtonproject/newbridge.network" rel="noreferrer" target="_blank">Github</a>
 
 #### Everyone Should Benefit from Economic Growth
 

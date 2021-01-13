@@ -5,8 +5,6 @@ author: "Vie Yang"
 weight: 12
 ---
 
-# (Core) Account API
-
 ## `GET` Account Info
 
 **`GET` /v1/newbridge/account**

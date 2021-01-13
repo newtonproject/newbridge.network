@@ -1,10 +1,8 @@
 ---
-title: Architecture
+title: NewBridge Architecture
 description: Describes the NewBrige Architecture
 weight: 3
 ---
-
-# NewBridge Architecture
 
 NewBridge has multiple components, here is a simplified list:
 

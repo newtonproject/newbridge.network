@@ -5,8 +5,6 @@ author: "Vie Yang"
 weight: 13
 ---
 
-# (Core) Account History API
-
 ## `GET` Account History
 
 **`GET` /v1/newbridge/history**

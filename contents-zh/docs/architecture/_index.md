@@ -4,8 +4,6 @@ description: NewBridge基本架构
 weight: 3
 ---
 
-## 架构
-
 NewBridge 包含如下多个组件：
 
 - NewBridge Core

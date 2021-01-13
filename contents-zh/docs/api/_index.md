@@ -4,7 +4,7 @@ description: NewBridge API 文档
 weight: 5
 ---
 
-# NewBridge API 文档
+## NewBridge API 文档
 
 欢迎使用面向开发人员的 NewBridge API 文档。
 

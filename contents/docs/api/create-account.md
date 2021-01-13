@@ -4,8 +4,6 @@ description: (XChain) Create Account
 weight: 30
 ---
 
-# (XChain) Create Account
-
 ```proto
 rpc CreateAccount (CreateAccountRequest) returns (CreateAccountReply) {}
 ```
