@@ -19,8 +19,8 @@
   },
   "homepage": "https://github.com/newtonproject/newbridge.network#readme",
   "devDependencies": {
-    "hugo-bin": "^0.67.0",
-    "hugo-bin-extended": "^0.79.0",
+    "hugo-bin": "^0.68.0",
+    "hugo-bin-extended": "^0.80.0",
     "prettier": "2.2.1"
   }
 }
