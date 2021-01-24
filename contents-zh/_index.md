@@ -10,7 +10,7 @@ type: home
   <div class="launch-app">
       <img src="home-devices.png" alt="">
       <p>
-        <a class="btn" href="#">App 程序即将上线</a>
+        <a class="btn" href="https://app.newbridge.network">打开 App 进行跨链</a>
       </p>
   </div>
 </div>
