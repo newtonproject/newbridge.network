@@ -163,4 +163,4 @@ params:
   # ------
   # Don't know why feature failed in Safari of current version, should fix later  
   # ------
-  NewDocsServiceWorker: false
+  NewDocsServiceWorker: true
