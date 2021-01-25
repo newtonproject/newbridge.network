@@ -51,8 +51,6 @@ Where questions get answered
 
 </div>
 
----
-
 ## GET NEWBRIDGE UPDATES
 
 Follow Newton Project on <a href="https://www.twitter.com/newton_project/" rel="noreferrer" target="_blank">Twitter</a>
