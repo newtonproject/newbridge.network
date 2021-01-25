@@ -32,14 +32,12 @@ Requirements:
 ### Transfer asset from NewChain to Ethereum:
 
 Confirm you can pay for it which asset you want to transfer. Then, input your ethereum address on target address input,
-and input transfer amount. Click `Transfer Out`, you can see apply approve page, if you confirm approve, then you will transfer
-your asset from NewChain to Ethereum.
+and input transfer amount. Click `Transfer Out`, you can see apply approve page, if you confirm approve, then you will transferyour asset from NewChain to Ethereum.
 
 ### Transfer asset from Ethereum to NewChain:
 
-Change the transfer target, you can get a qrCode, which content is an ethereum address, if you send your ethereum asset to the address,
-you will transfer your asset from Ethereum to NewChain.
+Change the transfer target, you can get a qrCode, which content is an ethereum address, if you send your ethereum asset to the address, you will transfer your asset from Ethereum to NewChain.
 
 ## How is the NewBridge fee calculated?
 
-The NewBridge fee is used to maintain the operation of the system, that is, the fee consumed for transfers between NewChain and Ethereum. The specific calculation rules of the fee is: from the Ethereum cross-chain to NewChain, the fee is twice the ETH transfer gas fee and the double NEW transfer gas fee; from the NewChain cross-chain to the Ethereum, the fee is charged twice the NEW transfer gas Fee and double the ETH transfer gas fee. If it is an ERC20/NRC6 token, the transfer fee will be converted to the standard of the certificate based on the market price and then calculated accordingly. Due to the high volatility of the market, there may be deviations. NewBridge will adjust the fee regularly or irregularly. NewBridge itself does not earn any fees from users.
+The NewBridge fee is used for on-chain transfers on NewChain and Ethereum. The fee is calculated according to the following rules: from Ethereum to NewChain, the fee is double the ETH transfer fee and double the NEW transfer fee; from NewChain to Ethereum, the fee is double the NEW transfer fee and double the ETH transfer fee. In the case of ERC20/NRC6 type of pass, the transfer fee is calculated by converting the market price to the pass principal. Due to the volatility of the market, there may be deviations, NewBridge will adjust the fees from time to time, NewBridge itself does not earn any fees from users.
