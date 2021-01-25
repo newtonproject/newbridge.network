@@ -31,3 +31,17 @@ menu:
 | Ethereum   | Uniswap       | UNI    | ERC-20    | 0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984 |
 | NewChain   | NewYFI        | NYFI   | NRC-6     | 0xB2405bC26f68A49D52C722d6Ddc9902AB8dC30c7 |
 | Ethereum   | yearn.finance | YFI    | ERC-20    | 0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e |
+
+## Fees
+
+| Pair         | NewChain => Ethereum Fee | Ethereum => NewChain Fee |
+| ------------ | ------------------------ | ------------------------ |
+| NEW - NEW    | 20000                    | 40000                    |
+| NETH - ETH   | 0.007                    | 0.01                     |
+| NUSDT - USDT | 5                        | 10                       |
+| NUSDC - USDC | 5                        | 10                       |
+| NWBTC - WBTC | 0.0002                   | 0.0004                   |
+| NHT - HT     | 1                        | 2                        |
+| NOKB - OKB   | 1                        | 2                        |
+| NUNI - UNI   | 1                        | 0.3                      |
+| NYFI - YFI   | 0.0002                   | 0.0004                   |
