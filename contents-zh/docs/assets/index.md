@@ -27,9 +27,21 @@ menu:
 | Ethereum   | HuobiToken    | HT    | ERC-20    | 0x6f259637dcD74C767781E37Bc6133cd6A68aa161 |
 | NewChain   | NewOKB        | NOKB  | NRC-6     | 0xe5E93F385bBebc4656FBA1b3faFF2B5C9B761EA0 |
 | Ethereum   | OKB           | OKB   | ERC-20    | 0x75231F58b43240C9718Dd58B4967c5114342a86c |
-| NewChain   | NewBNB        | BNB   | NRC-6     | 0x45A3d925d5A4bF0d49412aE6c011C5B5E883D312 |
-| Ethereum   | BNB           | BNB   | ERC-20    | 0xB8c77482e45F1F44dE1745F52C74426C631bDD52 |
 | NewChain   | NewUNI        | NUNI  | NRC-6     | 0xdA4f489BBCDBb7ADe39AD60205bd64b38C1c2A40 |
 | Ethereum   | Uniswap       | UNI   | ERC-20    | 0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984 |
 | NewChain   | NewYFI        | NYFI  | NRC-6     | 0xB2405bC26f68A49D52C722d6Ddc9902AB8dC30c7 |
 | Ethereum   | yearn.finance | YFI   | ERC-20    | 0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e |
+
+## 跨链手续费
+
+| 资产对       | NewChain => Ethereum 手续费 | Ethereum => NewChain 手续费 |
+| ------------ | --------------------------- | --------------------------- |
+| NEW - NEW    | 20000                       | 40000                       |
+| NETH - ETH   | 0.007                       | 0.01                        |
+| NUSDT - USDT | 5                           | 10                          |
+| NUSDC - USDC | 5                           | 10                          |
+| NWBTC - WBTC | 0.0002                      | 0.0004                      |
+| NHT - HT     | 1                           | 2                           |
+| NOKB - OKB   | 1                           | 2                           |
+| NUNI - UNI   | 1                           | 0.3                         |
+| NYFI - YFI   | 0.0002                      | 0.0004                      |
