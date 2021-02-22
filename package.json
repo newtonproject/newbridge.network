@@ -5,8 +5,8 @@
   "scripts": {
     "test": "echo \"no test specified\" && exit 1",
     "dev": "cd .configs && npx hugo server",
-    "check-contents": "npx prettier --check ./contents*",
-    "format-contents": "npx prettier --write ./contents*"
+    "fc": "npx prettier --check ./contents*",
+    "ff": "npx prettier --write ./contents*"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   "devDependencies": {
     "hugo-bin": "^0.68.0",
     "hugo-bin-extended": "^0.80.0",
+    "json": "^10.0.0",
     "prettier": "2.2.1"
   }
 }
