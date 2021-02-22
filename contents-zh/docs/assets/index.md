@@ -6,7 +6,7 @@ menu:
   main:
     parent: 更多
     name: 跨链资产
-    weight: 1
+    weight: 10
 ---
 
 ## 主网所支持的跨链资产
@@ -34,14 +34,6 @@ menu:
 
 ## 跨链手续费
 
-| 资产对       | NewChain => Ethereum 手续费 | Ethereum => NewChain 手续费 |
-| ------------ | --------------------------- | --------------------------- |
-| NEW - NEW    | 20000                       | 40000                       |
-| NETH - ETH   | 0.007                       | 0.01                        |
-| NUSDT - USDT | 5                           | 10                          |
-| NUSDC - USDC | 5                           | 10                          |
-| NWBTC - WBTC | 0.0002                      | 0.0004                      |
-| NHT - HT     | 1                           | 2                           |
-| NOKB - OKB   | 1                           | 2                           |
-| NUNI - UNI   | 1                           | 0.3                         |
-| NYFI - YFI   | 0.0002                      | 0.0004                      |
+NewBridge 跨链转账手续费随着目的地公链原生通证价格的变化而调整。
+
+请访问 [NewBridge App](https://app.newbridge.network) 查看当前跨链手续费。

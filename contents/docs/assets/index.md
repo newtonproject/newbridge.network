@@ -6,7 +6,7 @@ menu:
   main:
     parent: More
     name: Supported Assets
-    weight: 1
+    weight: 10
 ---
 
 ## MainNet Supported Assets
@@ -34,14 +34,6 @@ menu:
 
 ## Fees
 
-| Pair         | NewChain => Ethereum Fee | Ethereum => NewChain Fee |
-| ------------ | ------------------------ | ------------------------ |
-| NEW - NEW    | 20000                    | 40000                    |
-| NETH - ETH   | 0.007                    | 0.01                     |
-| NUSDT - USDT | 5                        | 10                       |
-| NUSDC - USDC | 5                        | 10                       |
-| NWBTC - WBTC | 0.0002                   | 0.0004                   |
-| NHT - HT     | 1                        | 2                        |
-| NOKB - OKB   | 1                        | 2                        |
-| NUNI - UNI   | 1                        | 0.3                      |
-| NYFI - YFI   | 0.0002                   | 0.0004                   |
+NewBridge cross-chain transfer fees are adjusted with the price of transactions fees change for each blockchains.
+
+Visit [NewBridge App](https://app.newbridge.network) for current cross-chain transfer fee.
