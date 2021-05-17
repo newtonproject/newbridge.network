@@ -22,10 +22,10 @@ Returns a JSON structure with details of the NewBridge transfer history of the s
 
 ### Optional
 
-| **Name**    | **In** | **Type** | **Description**                                              | **Enum**                                                    | **Default** |
-| ----------- | ------ | -------- | ------------------------------------------------------------ | ----------------------------------------------------------- | ----------- |
-| page_id     | query  | integer  | Page number.                                                 |                                                             |             |
-| page_size   | query  | integer  | Number of results per page.                                  |                                                             |             |
+| **Name**    | **In** | **Type** | **Description**                                                                                                                                         | **Enum**                                                    | **Default** |
+| ----------- | ------ | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | ----------- |
+| page_id     | query  | integer  | Page number.                                                                                                                                            |                                                             |             |
+| page_size   | query  | integer  | Number of results per page.                                                                                                                             |                                                             |             |
 | bridge_pair | query  | string   | bridage pair blockchain name, merge of `NewChain` family and `Ethtereum` family, such as `newchain-ethereum`, `newchain-hecochain`, `newchain-bschain`. | `newchain-ethereum` `newchain-hecochain` `newchain-bschain` |             |
 
 ```bash

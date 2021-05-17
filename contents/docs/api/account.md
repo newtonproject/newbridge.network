@@ -15,11 +15,11 @@ Returns a JSON structure with details of one account's address in bridged networ
 
 ### Required
 
-| Name                       | In    | Type   | Description                                                  | Enum                       |
-| -------------------------- | ----- | ------ | ------------------------------------------------------------ | -------------------------- |
-| direction                  | query | string | Specify NewBridge network direction.                         | `new2eth` `eth2new` `new2heco` `heco2new` `new2bsc` `bsc2new` |
-| ethereum_recipient_address | query | string | Reciving account on ethereum in `new2eth` direction. Must be address starting with `0x`. The key of name can be changed to `hecochain_recipient_address` or `bschain_recipient_address` |                            |
-| newchain_recipient_address | query | string | Reciving account on ethereum in `eth2new` direction. Can be address starting with `NEW` or `0x`. |                            |
+| Name                       | In    | Type   | Description                                                                                                                                                                             | Enum                                                          |
+| -------------------------- | ----- | ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
+| direction                  | query | string | Specify NewBridge network direction.                                                                                                                                                    | `new2eth` `eth2new` `new2heco` `heco2new` `new2bsc` `bsc2new` |
+| ethereum_recipient_address | query | string | Reciving account on ethereum in `new2eth` direction. Must be address starting with `0x`. The key of name can be changed to `hecochain_recipient_address` or `bschain_recipient_address` |                                                               |
+| newchain_recipient_address | query | string | Reciving account on ethereum in `eth2new` direction. Can be address starting with `NEW` or `0x`.                                                                                        |                                                               |
 
 ```bash
 curl -v https://replace-api-domain.ext/newbridge/account?ethereum_recipient_address=0xad61cc6653B62b7C05Bd2F593Bc49d22Fb901A9c&direction=new2eth
@@ -37,15 +37,15 @@ curl -v https://replace-api-domain.ext/newbridge/account?ethereum_recipient_addr
 }
 ```
 
-| Name                           | Type   | Description                                                  |
-| ------------------------------ | ------ | ------------------------------------------------------------ |
+| Name                           | Type   | Description                                                                                                                                        |
+| ------------------------------ | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ethereum_recipient_address     | string | Receiving address in on ethereum for `new2eth` direction. The name can be changed to `hecochain_recipient_address` or `bschain_recipient_address`. |
-| newchain_recipient_address     | string | Receiving address in on newchain for `eth2new` direction.    |
-| newchain_recipient_raw_address | string | Receiving address in `0x` on newchain for `eth2new` direction. |
-| direction                      | string | NewBridge network direction                                  |
-| ethereum_deposit_address       | string | Deposit address on ethereum for `eth2new` direction. The name can be changed to `hecochain_deposit_address` or `bschain_deposit_address`. |
-| newchain_deposit_address       | string | Deposit address on newchain for `new2eth` direction.         |
-| newchain_deposit_raw_address   | string | Deposit address in `0x` on newchain for `new2eth` direction. |
+| newchain_recipient_address     | string | Receiving address in on newchain for `eth2new` direction.                                                                                          |
+| newchain_recipient_raw_address | string | Receiving address in `0x` on newchain for `eth2new` direction.                                                                                     |
+| direction                      | string | NewBridge network direction                                                                                                                        |
+| ethereum_deposit_address       | string | Deposit address on ethereum for `eth2new` direction. The name can be changed to `hecochain_deposit_address` or `bschain_deposit_address`.          |
+| newchain_deposit_address       | string | Deposit address on newchain for `new2eth` direction.                                                                                               |
+| newchain_deposit_raw_address   | string | Deposit address in `0x` on newchain for `new2eth` direction.                                                                                       |
 
 ### Error Codes
 
