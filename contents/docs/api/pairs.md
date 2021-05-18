@@ -122,3 +122,12 @@ The actual amount of fee will use the larger one in `fee_percent` and `fee_min_a
 | sub_network    | string | Sub Network Name. `Mainnet` or `Testnet` for NewChain, `Mainnet` or `Rinkeby` for Ethereum.                       |
 | network_name   | string | The network name, such as `NewChain`, `Ethereum`, `HecoChain`, `BSChain`.                                         |
 | network_prefix | string | The prefix of network, such as `new`, `eth`, `heco`, `bsc`.                                                       |
+
+### Network
+
+| Name      | Prefix |
+| --------- | ------ |
+| NewChain  | new    |
+| Ethereum  | eth    |
+| HecoChain | heco   |
+| BSChain   | bsc    |
