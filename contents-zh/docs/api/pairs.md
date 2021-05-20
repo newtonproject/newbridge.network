@@ -6,7 +6,7 @@ weight: 11
 
 ## `GET` Pairs Info
 
-**`GET` /v1/newbridge/pairs**
+**`GET` /v2/newbridge/pairs**
 
 返回 account 的账户基本信息
 
@@ -68,6 +68,8 @@ curl -v https://replace-api-domain.ext/newbridge/pairs
 | new2eth_fee_min_amount     | string | `new2eth`方向手续费最小值                                                                                        |
 | eth2new_fee_min_amount     | string | `eth2new`方向手续费的最小值                                                                                      |
 
+以上个字段中 `new2eth` 可能为 `new2eth`, `new2heco` 或 `new2bsc`，需要对应链及方向。
+
 其中， Token 类型定义如下：
 
 | 名称        | 类型   | 描述                                                                                           |
@@ -80,6 +82,15 @@ curl -v https://replace-api-domain.ext/newbridge/pairs
 | asset_type  | string | 资产类型，newchain 链取值为 ： `Coin`,`ERC6`, ethreum 链取值为 `Coin`,`ERC20`                  |
 | chain_id    | int    | 链的 ChainID                                                                                   |
 | sub_network | string | 链的子名称，newchain 链可取值有： `Mainnet`,`Testnet,`ethereum 链可取值为：`Mainnet`,`Rinkeby` |
+
+### Network
+
+| Name      | Prefix |
+| --------- | ------ |
+| NewChain  | new    |
+| Ethereum  | eth    |
+| HecoChain | heco   |
+| BSChain   | bsc    |
 
 ### Error Codes
 

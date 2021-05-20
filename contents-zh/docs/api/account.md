@@ -6,7 +6,7 @@ weight: 12
 
 ## `GET` Account Info
 
-\*\*`GET` /v1/newbridge/account
+\*\*`GET` /v2/newbridge/account
 
 返回 account 的账户基本信息
 
@@ -14,11 +14,11 @@ weight: 12
 
 ### 请求参数
 
-| **Name**                   | **In** | **Type** | **Description**                                                                                | **Enum** | **Default** |
-| -------------------------- | ------ | -------- | ---------------------------------------------------------------------------------------------- | -------- | ----------- |
-| direction                  | query  | string   | `new2eth`或者`eth2new`之一，强制接口指定跨链方向，防止地址与方向混淆。                         |          |             |
-| ethereum_recipient_address | query  | string   | `new2eth`方向上，用户在 ethereum 链上的收币地址。                                              |          |             |
-| newchain_recipient_address | query  | string   | `eth2new`方向上，用户在 newchain 链上的收币地址，可以是 NEW 开头的地址或者 0x 开头的原生格式。 |          |             |
+| **Name**                   | **In** | **Type** | **Description**                                                                                                                        | **Enum** | **Default** |
+| -------------------------- | ------ | -------- | -------------------------------------------------------------------------------------------------------------------------------------- | -------- | ----------- |
+| direction                  | query  | string   | `new2eth`, `eth2new`, `new2heco`, `heco2new`, `new2bsc`, `bsc2new`之一，强制接口指定跨链方向，防止地址与方向混淆。                     |          |             |
+| ethereum_recipient_address | query  | string   | `new2eth`方向上，用户在 ethereum 链上的收币地址。; 该字段根据情况可以为 `hecochain_recipient_address` 或 `bschain_recipient_address`。 |          |             |
+| newchain_recipient_address | query  | string   | `eth2new`方向上，用户在 newchain 链上的收币地址，可以是 NEW 开头的地址或者 0x 开头的原生格式。                                         |          |             |
 
 ```bash
 curl -v https://replace-api-domain.ext/newbridge/account?ethereum_recipient_address=0xad61cc6653B62b7C05Bd2F593Bc49d22Fb901A9c&direction=new2eth
@@ -36,15 +36,15 @@ curl -v https://replace-api-domain.ext/newbridge/account?ethereum_recipient_addr
 }
 ```
 
-| 名称                           | 类型   | 描述                                                              |
-| ------------------------------ | ------ | ----------------------------------------------------------------- |
-| ethereum_recipient_address     | string | `new2eth`方向，用户在 ethereum 链上的收币地址。                   |
-| newchain_recipient_address     | string | `eth2new`方向，用户在 newchain 链上的收币地址，NEW 开头的地址。   |
-| newchain_recipient_raw_address | string | `eth2new`方向，用户在 NewChain 链上的收币地址的 Raw 格式，0x 开头 |
-| direction                      | string | `new2eth`或者`eth2new`之一                                        |
-| ethereum_deposit_address       | string | `eth2new`方向，ethereum 链上的冲币地址                            |
-| newchain_deposit_address       | string | `new2eth`方向，newchain 链上的冲币地址，NEW 开头的地址            |
-| newchain_deposit_raw_address   | string | `new2eth`方向， newchain 链上的冲币地址，0x 开头的原生格式        |
+| 名称                           | 类型   | 描述                                                                                                                        |
+| ------------------------------ | ------ | --------------------------------------------------------------------------------------------------------------------------- |
+| ethereum_recipient_address     | string | `new2eth`方向，用户在 ethereum 链上的收币地址。 该字段可以为 `hecochain_recipient_address` 或 `bschain_recipient_address`。 |
+| newchain_recipient_address     | string | `eth2new`方向，用户在 newchain 链上的收币地址，NEW 开头的地址。                                                             |
+| newchain_recipient_raw_address | string | `eth2new`方向，用户在 NewChain 链上的收币地址的 Raw 格式，0x 开头                                                           |
+| direction                      | string | `new2eth`或者`eth2new`之一                                                                                                  |
+| ethereum_deposit_address       | string | `eth2new`方向，ethereum 链上的冲币地址。 该字段可以为 `hecochain_deposit_address` 或 `bschain_deposit_address`。            |
+| newchain_deposit_address       | string | `new2eth`方向，newchain 链上的冲币地址，NEW 开头的地址                                                                      |
+| newchain_deposit_raw_address   | string | `new2eth`方向， newchain 链上的冲币地址，0x 开头的原生格式                                                                  |
 
 ### Error Codes
 

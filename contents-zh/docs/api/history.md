@@ -6,7 +6,7 @@ weight: 13
 
 ## `GET` Account History
 
-**`GET` /v1/newbridge/history**
+**`GET` /v2/newbridge/history**
 
 返回一个 JSON 结构，其中包含指定帐户的 NewBridge 桥接历史记录的详细信
 
@@ -21,13 +21,14 @@ weight: 13
 
 ### Optional
 
-| **Name**  | **In** | **Type** | **Description**             | **Enum** | **Default** |
-| --------- | ------ | -------- | --------------------------- | -------- | ----------- |
-| page_id   | query  | integer  | Page number.                |          |             |
-| page_size | query  | integer  | Number of results per page. |          |             |
+| **Name**    | **In** | **Type** | **Description**                                        | **Enum**                                                    | **Default** |
+| ----------- | ------ | -------- | ------------------------------------------------------ | ----------------------------------------------------------- | ----------- |
+| page_id     | query  | integer  | Page number.                                           |                                                             |             |
+| page_size   | query  | integer  | Number of results per page.                            |                                                             |             |
+| bridge_pair | query  | string   | 桥结对链的名称，是`NewChain`系列和`Ethereum`链的合并。 | `newchain-ethereum` `newchain-hecochain` `newchain-bschain` |             |
 
 ```bash
-curl -v https://replace-api-domain.ext/newbridge/history?newchain_address=0x97549E368AcaFdCAE786BB93D98379f1D1561a29&page_size=1
+curl -v https://replace-api-domain.ext/newbridge/history?newchain_address=0x97549E368AcaFdCAE786BB93D98379f1D1561a29&bridge_pair=newchain-ethereum&page_size=1
 ```
 
 ## 返回 `200`

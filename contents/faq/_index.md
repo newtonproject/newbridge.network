@@ -36,6 +36,15 @@ and input transfer amount. Click `Transfer Out`, you can see apply approve page,
 
 Change the transfer target, you can get a qrCode, which content is an ethereum address, if you send your ethereum asset to the address, you will transfer your asset from Ethereum to NewChain.
 
+### Transfer asset from NewChain to HecoChain:
+
+Confirm you can pay for it which asset you want to transfer. Then, input your HecoChain address on target address input,
+and input transfer amount. Click `Transfer Out`, you can see apply approve page, if you confirm approve, then you will transferyour asset from NewChain to HecoChain.
+
+### Transfer asset from HecoChain to NewChain:
+
+Change the transfer target, you can get a qrCode, which content is an HecoChain address, if you send your HecoChain asset to the address, you will transfer your asset from HecoChain to NewChain.
+
 ## How is the NewBridge fee calculated?
 
 The NewBridge fee is used for on-chain transfers on NewChain and Ethereum. The fee is calculated according to the following rules: from Ethereum to NewChain, the fee is double the ETH transfer fee and double the NEW transfer fee; from NewChain to Ethereum, the fee is double the NEW transfer fee and double the ETH transfer fee. In the case of ERC20/NRC6 type of pass, the transfer fee is calculated by converting the market price to the pass principal. Due to the volatility of the market, there may be deviations, NewBridge will adjust the fees from time to time, NewBridge itself does not earn any fees from users.
