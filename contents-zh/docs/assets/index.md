@@ -31,6 +31,11 @@ menu:
 | Ethereum   | Uniswap       | UNI   | ERC-20    | 0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984 |
 | NewChain   | NewYFI        | NYFI  | NRC-6     | 0xB2405bC26f68A49D52C722d6Ddc9902AB8dC30c7 |
 | Ethereum   | yearn.finance | YFI   | ERC-20    | 0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e |
+| HecoChain  | Newton        | NEW   | HRC-20    | 0x3A47a7e31b00C5754e2580907BDe73132DF48637 |
+| NewChain   | HuobiToken    | HT    | NRC-6     | 0xd23C9D75BC29eDC6eCb1760975ae30b98fbBD263 |
+| HecoChain  | NewHHT        | NHHT  | Base Coin | N/A                                        |
+| NewChain   | 牛屎币        | NSB   | NRC-6     | 0x23262131c5EE341470df6A2D037d0Cd78A49A43a |
+| HecoChain  | NewBridge NSB | nbNSB | HRC-20    | 0x08230238314326CCC2f3196786771ed15d75705f |
 
 ## 跨链手续费
 

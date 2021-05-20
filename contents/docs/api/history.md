@@ -29,7 +29,7 @@ Returns a JSON structure with details of the NewBridge transfer history of the s
 | bridge_pair | query  | string   | bridage pair blockchain name, merge of `NewChain` family and `Ethtereum` family, such as `newchain-ethereum`, `newchain-hecochain`, `newchain-bschain`. | `newchain-ethereum` `newchain-hecochain` `newchain-bschain` |             |
 
 ```bash
-curl -v https://replace-api-domain.ext/newbridge/history?newchain_address=0x97549E368AcaFdCAE786BB93D98379f1D1561a29&bridge_pair=newchain-et&page_size=1
+curl -v https://replace-api-domain.ext/newbridge/history?newchain_address=0x97549E368AcaFdCAE786BB93D98379f1D1561a29&bridge_pair=newchain-ethereum&page_size=1
 ```
 
 ## Response `200`
