@@ -11,10 +11,12 @@ menu:
 
 ## Newton(NEW)
 
-| Blockchain | Name   | Symbol | Type      | Contract                                   |
-| ---------- | ------ | ------ | --------- | ------------------------------------------ |
-| NewChain   | Newton | NEW    | Base Coin | N/A                                        |
-| Ethereum   | Newton | NEW    | ERC-20    | 0x46B9e715b2aB7D5999DEe748eFe9379E4f94e0bF |
+| Blockchain        | Name   | Symbol | Type      | Contract                                   |
+| ----------------- | ------ | ------ | --------- | ------------------------------------------ |
+| NewChain          | Newton | NEW    | Base Coin | N/A                                        |
+| Ethereum          | Newton | NEW    | ERC-20    | 0x46B9e715b2aB7D5999DEe748eFe9379E4f94e0bF |
+| HecoChain         | Newton | NEW    | HRC-20    | 0x3A47a7e31b00C5754e2580907BDe73132DF48637 |
+| BinanceSmartChain | Newton | NEW    | BEP-6     | 0x628e11FfEdb79b3d536220F56242cC3B0fF5eC87 |
 
 ## Ethereum(ETH)
 
@@ -49,7 +51,7 @@ menu:
 | Blockchain | Name       | Symbol | Type      | Contract                                   |
 | ---------- | ---------- | ------ | --------- | ------------------------------------------ |
 | HecoChain  | NewHHT     | NHHT   | Base Coin | N/A                                        |
-| NewChain   | NewHT      | NHT    | NRC-6     | NEW182Zez1DHqZYy4dGBUczxHfvMV2pMvYp8vUZ    |
+| NewChain   | NewHT      | NHT    | NRC-6     | 0xe21C4074562D473e8fad1311dB018d6Ff94a5Fa4 |
 | NewChain   | HuobiToken | HT     | NRC-6     | 0xd23C9D75BC29eDC6eCb1760975ae30b98fbBD263 |
 | Ethereum   | HuobiToken | HT     | ERC-20    | 0x6f259637dcD74C767781E37Bc6133cd6A68aa161 |
 
@@ -76,10 +78,18 @@ menu:
 
 ## NSB(NSB)
 
-| Blockchain | Name          | Symbol | Type   | Contract                                   |
-| ---------- | ------------- | ------ | ------ | ------------------------------------------ |
-| NewChain   | 牛屎币        | NSB    | NRC-6  | 0x23262131c5EE341470df6A2D037d0Cd78A49A43a |
-| HecoChain  | NewBridge NSB | nbNSB  | HRC-20 | 0x08230238314326CCC2f3196786771ed15d75705f |
+| Blockchain        | Name          | Symbol | Type   | Contract                                   |
+| ----------------- | ------------- | ------ | ------ | ------------------------------------------ |
+| NewChain          | 牛屎币        | NSB    | NRC-6  | 0x23262131c5EE341470df6A2D037d0Cd78A49A43a |
+| HecoChain         | NewBridge NSB | nbNSB  | HRC-20 | 0x08230238314326CCC2f3196786771ed15d75705f |
+| BinanceSmartChain | NewBridge NSB | nbNSB  | BEP-20 | 0x8b2CBE4259f8fd2FCCD164c9FEe455624B241805 |
+
+## Binance Coin(BNB)
+
+| Blockchain        | Name         | Symbol | Type      | Contract                                   |
+| ----------------- | ------------ | ------ | --------- | ------------------------------------------ |
+| BinanceSmartChain | Binance Coin | BNB    | Base Coin | N/A                                        |
+| NewChain          | NewBBNB      | NBBNB  | NRC-6     | 0x8Ef1F434D55c97F8DCeD8527dfbEBE963eAd3Ff6 |
 
 ## Fees
 
