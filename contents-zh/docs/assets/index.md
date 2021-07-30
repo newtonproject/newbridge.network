@@ -20,7 +20,6 @@ menu:
 | ---------- | ------------- | ----- | --------- | ------------------------------------------ |
 | Ethereum | Ether | ETH | Base Coin | N/A |
 | NewChain | NewETH | NETH | NRC-6 | 0x57B8154cb20D8a99a0d4aC55db3bcd19f61Baa5B |
-| HecoChain | Newton | NEW | HRC-20 | 0x3A47a7e31b00C5754e2580907BDe73132DF48637 |
 
 ## Tether USD(USDT)
 
